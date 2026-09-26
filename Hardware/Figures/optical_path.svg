@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950">
+<rect width="1600" height="950" fill="white"/>
+<rect x="665" y="35" width="290" height="100" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="665,35 955,35" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="810.0" y="71.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">700 nm LED</text>
+<text x="810.0" y="105.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Bright-field</text>
+<polyline points="810,135 810,245" fill="none" stroke="#B97015" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="810,245 818.0,228.0 802.0,228.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<rect x="575" y="245" width="450" height="90" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="575,290 1025,290" fill="none" stroke="#B7C6C8" stroke-width="2" stroke-linejoin="round"/>
+<text x="1110" y="272.02" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="start" dominant-baseline="central">Microfluidic</text>
+<text x="1110" y="307.98" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="start" dominant-baseline="central">channel</text>
+<ellipse cx="743.0" cy="290.0" rx="19.0" ry="15.0" fill="#D7EBE8" stroke="#007D83" stroke-width="2"/>
+<ellipse cx="809.0" cy="290.0" rx="19.0" ry="15.0" fill="#D7EBE8" stroke="#007D83" stroke-width="2"/>
+<ellipse cx="875.0" cy="290.0" rx="19.0" ry="15.0" fill="#D7EBE8" stroke="#007D83" stroke-width="2"/>
+<ellipse cx="810.0" cy="437.5" rx="90.0" ry="17.5" fill="white" stroke="#B7C6C8" stroke-width="3"/>
+<text x="960" y="435.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" font-weight="700" text-anchor="start" dominant-baseline="central">Objective</text>
+<rect x="685" y="570" width="250" height="110" fill="#F5F8F8" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="745,651 871,588" fill="none" stroke="#172D35" stroke-width="5" stroke-linejoin="round"/>
+<text x="660" y="704.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="700" text-anchor="end" dominant-baseline="central">Dichroic routing</text>
+<text x="660" y="744.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="end" dominant-baseline="central">DMLP505R excitation split</text>
+<rect x="45" y="568" width="290" height="110" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="45,568 335,568" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="190.0" y="607.6" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">488 nm laser</text>
+<text x="190.0" y="645.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Excitation</text>
+<polyline points="335,623 790,623" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="790,623 773.0,615.0 773.0,631.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<polyline points="790,623 790,335" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="790,335 782.0,352.0 798.0,352.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<polyline points="812,335 812,570" fill="none" stroke="#208259" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="812,570 820.0,553.0 804.0,553.0" fill="#208259" stroke="#208259" stroke-width="2"/>
+<polyline points="812,570 812,680" fill="none" stroke="#208259" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="812,680 812,782" fill="none" stroke="#208259" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="812,782 820.0,765.0 804.0,765.0" fill="#208259" stroke="#208259" stroke-width="2"/>
+<rect x="690" y="786" width="240" height="27" fill="#DDECE3" stroke="#208259" stroke-width="3"/>
+<text x="1080" y="790.0" fill="#208259" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="400" text-anchor="start" dominant-baseline="central">Emission filter</text>
+<text x="1080" y="828.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" text-anchor="start" dominant-baseline="central">Matched to configuration</text>
+<polyline points="812,813 812,857" fill="none" stroke="#208259" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="812,857 820.0,840.0 804.0,840.0" fill="#208259" stroke="#208259" stroke-width="2"/>
+<rect x="665" y="858" width="290" height="54" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="665,858 955,858" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="810.0" y="885.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">H10682 PMT</text>
+<polyline points="832,335 832,610 1190,610" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1190,610 1173.0,602.0 1173.0,618.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<rect x="1190" y="561" width="25" height="99" fill="#EEF1F2" stroke="#52656B" stroke-width="3"/>
+<text x="1202" y="516.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">ND filter</text>
+<polyline points="1215,610 1300,610" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1300,610 1283.0,602.0 1283.0,618.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<rect x="1300" y="554" width="260" height="112" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="1300,554 1560,554" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="1430.0" y="594.32" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">MUS40M-G</text>
+<text x="1430.0" y="632.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Camera</text>
+<text x="1130" y="707.0" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Observation branch</text>
+<polyline points="50,75 115,75" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="139" y="75.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="start" dominant-baseline="central">Excitation</text>
+<polyline points="50,122 115,122" fill="none" stroke="#208259" stroke-width="5" stroke-linejoin="round"/>
+<text x="139" y="122.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="start" dominant-baseline="central">Fluorescence</text>
+<polyline points="50,169 115,169" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="139" y="169.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="start" dominant-baseline="central">Observation</text>
+<text x="50" y="837.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="start" dominant-baseline="central">Functional optical paths</text>
+<text x="50" y="874.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="start" dominant-baseline="central">eGFP configuration</text>
+<text x="1550" y="925.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="400" text-anchor="end" dominant-baseline="central">Schematic; not to scale.</text>
+</svg>

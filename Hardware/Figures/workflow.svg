@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950">
+<rect width="1600" height="950" fill="white"/>
+<text x="60" y="76.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="700" text-anchor="start" dominant-baseline="central">DROPLET PREPARATION</text>
+<text x="60" y="159.0" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="38" font-weight="700" text-anchor="start" dominant-baseline="central">01</text>
+<rect x="60" y="207" width="450" height="132" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="60,207 510,207" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="285.0" y="254.51999999999998" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Generate</text>
+<text x="285.0" y="299.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Water-in-oil droplets</text>
+<text x="285" y="386.02" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">CH1 aqueous</text>
+<text x="285" y="421.98" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">CH2 oil</text>
+<text x="575" y="159.0" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="38" font-weight="700" text-anchor="start" dominant-baseline="central">02</text>
+<rect x="575" y="207" width="450" height="132" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="575,207 1025,207" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="800.0" y="254.51999999999998" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Incubate</text>
+<text x="800.0" y="299.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">30 °C / 16 h</text>
+<text x="800" y="386.02" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Collect droplets</text>
+<text x="800" y="421.98" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Culture in tubes</text>
+<text x="1090" y="159.0" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="38" font-weight="700" text-anchor="start" dominant-baseline="central">03</text>
+<rect x="1090" y="207" width="450" height="132" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="1090,207 1540,207" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="1315.0" y="254.51999999999998" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Reinject</text>
+<text x="1315.0" y="299.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Sorting-chip inlet</text>
+<text x="1315" y="386.02" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Prime with fluorinated oil</text>
+<text x="1315" y="421.98" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Deliver cultured droplets</text>
+<polyline points="510,273 575,273" fill="none" stroke="#B97015" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="575,273 558.0,265.0 558.0,281.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<polyline points="1025,273 1090,273" fill="none" stroke="#B97015" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1090,273 1073.0,265.0 1073.0,281.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<polyline points="1315,447 1315,496 30,496 30,724 60,724" fill="none" stroke="#B97015" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="60,724 43.0,716.0 43.0,732.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<text x="60" y="560.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="700" text-anchor="start" dominant-baseline="central">FLUORESCENCE SELECTION</text>
+<text x="60" y="610.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="33" font-weight="700" text-anchor="start" dominant-baseline="central">04</text>
+<rect x="60" y="658" width="325" height="132" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="60,658 385,658" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="222.5" y="705.52" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Detect</text>
+<text x="222.5" y="750.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">PMT / CH297</text>
+<text x="222.5" y="827.64" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Photon-count</text>
+<text x="222.5" y="862.36" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">samples</text>
+<text x="466" y="610.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="33" font-weight="700" text-anchor="start" dominant-baseline="central">05</text>
+<rect x="466" y="658" width="325" height="132" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="466,658 791,658" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="628.5" y="705.52" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Gate</text>
+<text x="628.5" y="750.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">PYNQ-Z2</text>
+<text x="628.5" y="827.64" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Threshold</text>
+<text x="628.5" y="862.36" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">+ hysteresis</text>
+<text x="872" y="610.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="33" font-weight="700" text-anchor="start" dominant-baseline="central">06</text>
+<rect x="872" y="658" width="325" height="132" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="872,658 1197,658" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="1034.5" y="705.52" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Sort</text>
+<text x="1034.5" y="750.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">DEP actuation</text>
+<text x="1034.5" y="845.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Target / waste routing</text>
+<text x="1278" y="610.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="33" font-weight="700" text-anchor="start" dominant-baseline="central">07</text>
+<rect x="1278" y="658" width="262" height="132" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="1278,658 1540,658" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="1409.0" y="705.52" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Record</text>
+<text x="1409.0" y="750.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Session archive</text>
+<text x="1409.0" y="827.64" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Video + counts</text>
+<text x="1409.0" y="862.36" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">+ events</text>
+<polyline points="385,724 466,724" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="466,724 449.0,716.0 449.0,732.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<polyline points="791,724 872,724" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="872,724 855.0,716.0 855.0,732.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<polyline points="1197,724 1278,724" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1278,724 1261.0,716.0 1261.0,732.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="1550" y="925.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="400" text-anchor="end" dominant-baseline="central">Schematic; not to scale.</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950">
+<rect width="1600" height="950" fill="white"/>
+<text x="50" y="40.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="central">ACQUISITION AND HOST CONNECTIONS</text>
+<rect x="50" y="90" width="300" height="100" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="50,90 350,90" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="200.0" y="126.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">H10682 PMT</text>
+<text x="200.0" y="160.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Signal out</text>
+<rect x="510" y="90" width="300" height="100" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="510,90 810,90" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="660.0" y="126.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">CH297</text>
+<text x="660.0" y="160.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Count input</text>
+<polyline points="350,140 510,140" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="510,140 493.0,132.0 493.0,148.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="430" y="101.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">Coax</text>
+<rect x="1140" y="90" width="380" height="370" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="1140,90 1520,90" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="1330" y="137.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">Host PC</text>
+<polyline points="810,140 1070,140 1070,217 1140,217" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1140,217 1123.0,209.0 1123.0,225.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="970" y="97.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">USB / serial</text>
+<text x="1330" y="217.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">CH297 serial port</text>
+<text x="970" y="183.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" text-anchor="middle" dominant-baseline="central">19200, 8N1</text>
+<rect x="50" y="275" width="350" height="100" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="50,275 400,275" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="225.0" y="311.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">MUS40M-G</text>
+<text x="225.0" y="345.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Camera</text>
+<polyline points="400,325 1140,325" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1140,325 1123.0,317.0 1123.0,333.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="745" y="286.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">USB</text>
+<text x="1330" y="325.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Camera USB port</text>
+<text x="1330" y="409.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Pump USB port</text>
+<text x="50" y="413.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="700" text-anchor="start" dominant-baseline="central">LSP02-3B / COMM PORT</text>
+<rect x="50" y="443" width="350" height="142" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<text x="225" y="485.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Pin 5: RS485 A</text>
+<text x="225" y="550.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Pin 4: RS485 B</text>
+<rect x="650" y="443" width="300" height="142" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<text x="800" y="420.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="central">CM253 adapter</text>
+<text x="690" y="485.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="central">A</text>
+<text x="690" y="550.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="central">B</text>
+<text x="843" y="515.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="central">USB</text>
+<polyline points="400,485 650,485" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="400,550 650,550" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<text x="525" y="452.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">A to A</text>
+<text x="525" y="584.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">B to B</text>
+<polyline points="950,515 1080,515 1080,409 1140,409" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1140,409 1123.0,401.0 1123.0,417.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="1050" y="563.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" text-anchor="middle" dominant-baseline="central">RS485 / 8E1</text>
+<polyline points="1495,460 1495,650" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1495,650 1503.0,633.0 1487.0,633.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="1380" y="526.64" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Ethernet</text>
+<text x="1380" y="561.36" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">TCP 5000</text>
+<text x="1330" y="613.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="central">PYNQ-Z2 / PMOD B</text>
+<rect x="1140" y="650" width="380" height="110" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<text x="1330" y="681.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Pin 1: 0-3.3 V</text>
+<text x="1330" y="731.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">GND</text>
+<text x="822" y="613.0" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" font-weight="700" text-anchor="middle" dominant-baseline="central">DG1022Z</text>
+<rect x="655" y="650" width="335" height="110" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<text x="822" y="681.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">External trigger</text>
+<text x="822" y="731.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Signal ground</text>
+<polyline points="1140,681 990,681" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="990,681 1007.0,689.0 1007.0,673.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<polyline points="1140,731 990,731" fill="none" stroke="#52656B" stroke-width="3" stroke-linejoin="round"/>
+<text x="1065" y="651.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" text-anchor="middle" dominant-baseline="central">Gate</text>
+<text x="1065" y="759.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" text-anchor="middle" dominant-baseline="central">GND</text>
+<polyline points="822,760 822,818" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="822,818 830.0,801.0 814.0,801.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="978" y="797.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">8 kHz / BNC</text>
+<rect x="655" y="818" width="335" height="92" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="655,818 990,818" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="822.5" y="851.12" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">ATA-2081</text>
+<text x="822.5" y="882.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Signal in / HV out</text>
+<rect x="50" y="818" width="345" height="92" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="50,818 395,818" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="222.5" y="851.12" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">DEP electrodes</text>
+<text x="222.5" y="882.4" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Sorting chip</text>
+<polyline points="655,864 395,864" fill="none" stroke="#B97015" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="395,864 412.0,872.0 412.0,856.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<text x="525" y="828.0" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">HV output</text>
+<text x="1220" y="835.26" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">Insulated HV lead</text>
+<text x="1220" y="868.74" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">Separate from logic wiring</text>
+<text x="1550" y="925.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="400" text-anchor="end" dominant-baseline="central">Schematic; not to scale.</text>
+</svg>

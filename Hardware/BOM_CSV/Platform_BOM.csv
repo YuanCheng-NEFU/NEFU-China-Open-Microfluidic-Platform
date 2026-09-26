@@ -1,0 +1,29 @@
+ID,Category,Component,Model,Quantity,Function,Reference unit price (CNY),Application,Procurement notes
+1,Detection,Photon-counting head (PMT),H10682-210,1,Droplet fluorescence detection,2500,Required,Hamamatsu; match the suffix to the installed head. H10682-110 is also documented.
+2,Detection,Photon counter,CH297-011,1,Real-time photon-count acquisition,1500,Required,Obtain the driver and PMTCount.dll from the supplier.
+3,Control,FPGA development board,PYNQ-Z2（xc7z020clg400-1）,1,Threshold decisions and gate output,2000,Required,PMOD B Pin 1 output: 0-3.3 V.
+4,Imaging,Scientific camera,"MUS40M-G (monochrome, global shutter)",1,Droplet imaging and recording,3176,Required,Price from optical base quotation; install the supplier SDK and OEApi64.dll.
+5,Fluidics,Syringe pump,LSP02-3B,1,Oil delivery and droplet reinjection,6578,Required,Two channels; RS485 address 1. Aqueous: about 1.5 uL/min. Oil: 500 uL over 28.5 min.
+6,Fluidics,Syringes,Pump-compatible microsyringes,2,Aqueous and oil delivery; droplet reinjection,,Required,Select capacity and diameter for the chip flow rate.
+7,Fluidics,Sorting chip,"DEP sorting chip, 75 x 25 x 1 mm",1,Droplet generation and DEP sorting,500,Required,Approximately 30 um water-in-oil droplets.
+8,Optics,Excitation source,"OM-12A488-10-G (488 nm, 12 mm diameter)",1,eGFP excitation,490,Required,Price from optical base quotation. Use the matching excitation and filter set for mCherry.
+9,Optics,Observation illuminator,LED-D1-MAX6K + LEDOTB-1000 controller,1,Brightfield illumination,1830,Required,Quoted prices: 905 + 925 CNY. Illuminate from above with spectral separation from fluorescence.
+10,Optics,Emission filter,FBH520-40,1,eGFP emission selection,,Required,Thorlabs
+11,Optics,Dichroic mirror,DMLP505R,1,Excitation and emission separation,,Required,Thorlabs
+12,Optics,PMT emission filter,535 nm filter,1,Reject observation light at the PMT,,Configuration-specific,Documented 535 nm configuration. Select the complete emission-filter set matched to the installed optical path.
+13,Optics,Neutral-density filter,Neutral-density filter,1,Camera attenuation and exposure control,,Required,Select attenuation for the camera and illumination level.
+14,Optics,Cage cube,C6WR,6,Optical assembly,,Required,Thorlabs
+15,Optics,Optical base assembly,"Optical base kit (55 listed line items, 95 units)",1,Optical and chip mounting,22851,Required,Quoted assembly total; see Optical Base Quote. Listed components overlap the platform BOM.
+16,mCherry configuration,Custom filter,Custom filter near 610 nm,1,mCherry emission selection,1929,mCherry configuration,Reference price from the 20 August project report; specify the mCherry filter separately from the FITC/eGFP set.
+17,mCherry configuration,587 nm LED,LED near 587 nm,1,"mCherry excitation, LED option",400,mCherry configuration,Use with the 610 nm filter.
+18,mCherry configuration,587 nm laser,587 nm laser,1,"mCherry excitation, laser option",200,mCherry configuration,Use with 587 nm and 610 nm filters.
+19,DEP sorting,Function generator,RIGOL DG1022Z,1,8 kHz sinusoidal drive,3456,DEP configuration,PYNQ external trigger; DG1000Z series.
+20,DEP sorting,High-voltage amplifier,ATA-2081,1,Amplify drive to 300-500 Vpp,24100,DEP configuration,Guard and insulate high-voltage outputs. Match the installed model; ATA-2088 also appears in source records.
+21,DEP sorting,High-voltage leads and clips,Insulated clips and accessories,2,Sorting-electrode connection,2.25,DEP configuration,Taobao
+22,Computing,Computer,Windows x64 workstation,1,Run the control application,,Required,Provide multiple USB ports and Ethernet.
+23,Consumables,Tygon tubing,0.06 in OD / 0.02 in ID,1,Oil-phase connection,37,Required,Purchase by the meter.
+24,Consumables,PEEK tubing,1.6 mm OD / 0.13 mm ID,1,Other fluidic ports,90,Required,Purchase by the meter.
+25,Consumables,Stainless-steel capillary,0.7 mm OD,1,Chip-inlet connection,2.5,Required,Taobao
+26,Consumables,Fluorinated oil,Fluorinated oil for droplet reinjection,1,Prefill phase for reinjection after incubation,,Required,Prefill the syringe with a small volume of fluorinated oil before loading droplets.
+27,Consumables,Light enclosure,Custom,1,Ambient-light shielding,,Required,Custom fabrication by Mingjue Chuangwu; specify the enclosure dimensions for the optical assembly.
+28,Consumables,USB-to-RS485 adapter,UGREEN CM253 (isolated),1,Syringe-pump connection,,Required,Connect A to A and B to B.

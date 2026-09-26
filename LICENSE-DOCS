@@ -1,0 +1,23 @@
+Documentation and Data License
+
+Copyright (c) 2026 NEFU-China iDEC Experimental Group,
+Northeast Forestry University.
+
+Unless a file states otherwise, project documentation, original diagrams
+and example data in this distribution are licensed under the Creative
+Commons Attribution 4.0 International license (CC BY 4.0).
+
+License text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution:
+NEFU-China iDEC Experimental Group. (2026).
+NEFU China Open Microfluidic Platform, Version 0.8.1.
+Northeast Forestry University. CC BY 4.0.
+
+Vendor SDKs, drivers, datasheets, product marks and third-party materials
+retain their original ownership and terms. This distribution does not
+bundle vendor SDKs or assign a project license to third-party materials.
+
+Software in Software/, scripts/, tests/, and diagram-generation code in
+Hardware/Figures/ is covered by LICENSE.

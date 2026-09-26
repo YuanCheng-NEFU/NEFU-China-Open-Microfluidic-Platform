@@ -1,0 +1,30 @@
+ID,Component,Model,Supplier,Quantity,Notes
+1,Lens tube,SM1L10,Thorlabs,1,
+2,Cage-plate adapter,LCP33/M,Thorlabs,1,
+3,Cage assembly rods,ER2-P4,Thorlabs,4,
+4,Cage assembly rods,ER8-P4,Thorlabs,2,
+5,Cage-system cover,C30L24,Thorlabs,1,
+6,Cage-system cover,C60L24,Thorlabs,1,
+7,Epi-illumination port adapter,SM2N1,Thorlabs,1,
+8,Adapter,SM1A10,Thorlabs,1,
+9,Filter,FGL400M,Thorlabs,1,
+10,Cage cube,C6WR,Thorlabs,6,
+11,Longpass dichroic mirror,DMLP505R,Thorlabs,2,
+12,Longpass dichroic mirror,DMLP550R,Thorlabs,2,
+13,Longpass dichroic mirror,DMLP650R,Thorlabs,1,
+14,Cover plate,B1C,Thorlabs,6,
+15,Rotating cover plate,B3C,Thorlabs,6,
+16,Filter holder,FFM1,Thorlabs,6,
+17,Dust cap,SM1CP2,Thorlabs,8,
+18,Retaining ring,SM1RR,Thorlabs,4,
+19,Lens tube,SM1L05,Thorlabs,6,
+20,Hard-coated bandpass filter,FBH520-40,Thorlabs,1,eGFP emission
+21,Hard-coated bandpass filter,FBH600-40,Thorlabs,1,mCherry emission
+22,Adjustable iris,SM1D12,Thorlabs,3,
+23,Lens tube,SM1V05,Thorlabs,4,
+24,Adapter,SM1T10,Thorlabs,4,
+25,Lens-tube spacer,SM1S10,Thorlabs,4,
+26,Machined adapter,PMT-to-SM1T10 adapter,Taobao machining service,4,Custom part; provide a dimensioned drawing to the fabricator.
+27,Infrared longpass filter,Passband above 670 nm,Taobao custom supplier,1,45 mm diameter; 1 mm thickness.
+28,Mirror,GMEH-25x36x1-AG,Taobao,1,
+29,Light enclosure,Custom,Mingjue Chuangwu,1,Ambient-light shielding

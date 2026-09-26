@@ -1,0 +1,57 @@
+ID,Product,Model,Quantity,Unit,Unit price (CNY),Line total (CNY)
+1,Plan apochromatic objective,MOPL5X,1,piece,1806,1806
+2,30 mm threaded cage plate,CSJ-30,1,piece,75,75
+3,PCM-S series 6 mm rods,PCM-S19,4,rod,15,60
+4,30 mm right-angle adjustment mount,KCD1L-EC,1,piece,638,638
+5,Elliptical mirror,TFA-E25.4,1,piece,185,185
+6,PCM-E series 6 mm rods,PCM-E0.5,4,rod,14,56
+7,30 mm screw-fastened cube (base and insert),M2-BFD30,1,piece,1208,1208
+8,30 mm dust cap,CSL-P1,1,piece,43,43
+9,Fluorescence filter set (FITC/eGFP/Alexa Fluor 488),—,1,set,1929,1929
+10,1 in tube shielding assembly,CSA-14X,1,piece,73,73
+11,Cage-rod adapters (4 per set),SCB1,1,set,152,152
+12,PCM-E series 6 mm rods,PCM-E0.5,4,rod,14,56
+13,30 mm screw-fastened cube (base and insert),M2-BFD30,1,piece,1208,1208
+14,30 mm dust cap,CSL-P1,1,piece,43,43
+15,Plate beamsplitter,PSMH-S36-M,1,piece,98,98
+16,PCM-S series 6 mm rods,PCM-S114,4,rod,30,120
+17,30 mm threaded cage plate,CSJ-30,1,piece,75,75
+18,30 mm adjustable cage optic mount,MC-T1,1,piece,295,295
+19,Adapter mounting socket,POT-12,1,piece,36,36
+20,12 mm laser module with power supply,OM-12A488-10-G,1,piece,490,490
+21,"Tube lens, f = 180 mm",TMF180,2,piece,552,1104
+22,1 in lens tube,CSB-64,2,piece,70,140
+23,PCM-S series 6 mm rods,PCM-S152,8,rod,35,280
+24,1 in tube shielding assembly,CSA-60X,2,piece,133,266
+25,30 mm through-hole cage plate,CSJ-31,2,piece,93,186
+26,Monochrome global-shutter camera,MUS40M-G,1,piece,3176,3176
+27,12.7 mm stainless-steel post,PCAH1-S,3,rod,10,30
+28,CA-A series post holder,CA30-A,3,piece,40,120
+29,Post base,PCA31-S,3,piece,27,81
+30,Clamping fork,M-BASE-C,3,piece,48,144
+31,Microscope-slide holder,X3-SLH,1,piece,378,378
+32,Small right-angle adapter,APT-L2,1,piece,189,189
+33,Right-angle adapter,APT-90,1,piece,229,229
+34,Linear translation stage,TSX-LD1,3,piece,778,2334
+35,Mounting base plate,OPS-ML,1,piece,188,188
+36,1 in stainless-steel post,CFP2.5-S（M6）,4,rod,86,344
+37,Clamping fork,M-BASE-C,4,piece,48,192
+38,Laboratory LED source,LED-D1-MAX6K,1,piece,905,905
+39,30 mm through-hole cage plate,CSJ-31,1,piece,93,93
+40,1 in lens tube,CSA-12,1,piece,45,45
+41,1 in plano-convex lens,OLB-I1-30PM,1,piece,145,145
+42,1 in viewing lens tube,CSA-50V,1,piece,203,203
+43,Ring-driven adjustable iris,CDM-12,1,piece,189,189
+44,12 mm stainless-steel post,PCA8-S1,1,rod,17,17
+45,Right-angle clamp,CFP25-A12,1,piece,85,85
+46,Quick-release handle,M6-16,1,piece,18,18
+47,25 mm stainless-steel post,CFJP150-S,1,rod,95,95
+48,25 mm stainless-steel post,CFJP300-S,1,rod,230,230
+49,Clamping fork,M-BASE-C,1,piece,48,48
+50,Post base,PCA31-S,1,piece,27,27
+51,C-mount adapter,C-CSA,1,piece,53,53
+52,Ring-driven adjustable iris,CDM-12,1,piece,189,189
+53,LED dimming controller,LEDOTB-1000,1,piece,925,925
+54,OHD series optical breadboard,OHD-5050A,1,piece,1549,1549
+55,Breadboard feet,—,2,pair,4,8
+,Total,,95,,,22851

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950">
+<rect width="1600" height="950" fill="white"/>
+<text x="60" y="70.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="central">PHOTON ACQUISITION AND CONTROL</text>
+<rect x="790" y="35" width="300" height="105" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="790,35 1090,35" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="940.0" y="72.8" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">MUS40M-G</text>
+<text x="940.0" y="108.5" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Parallel imaging</text>
+<polyline points="940,140 940,230" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="940,230 948.0,213.0 932.0,213.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="1050" y="182.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">USB</text>
+<rect x="60" y="230" width="300" height="140" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="60,230 360,230" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="210.0" y="280.4" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">H10682</text>
+<text x="210.0" y="328.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">PMT</text>
+<rect x="425" y="230" width="300" height="140" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="425,230 725,230" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="575.0" y="280.4" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">CH297</text>
+<text x="575.0" y="328.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Photon counter</text>
+<rect x="790" y="230" width="300" height="140" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="790,230 1090,230" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="940.0" y="280.4" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Host PC</text>
+<text x="940.0" y="328.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Acquire / forward</text>
+<rect x="1155" y="230" width="300" height="140" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="1155,230 1455,230" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="1305.0" y="280.4" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">PYNQ-Z2</text>
+<text x="1305.0" y="328.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Threshold / gate</text>
+<polyline points="360,300 425,300" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="425,300 408.0,292.0 408.0,308.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<polyline points="725,300 790,300" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="790,300 773.0,292.0 773.0,308.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<polyline points="1090,300 1155,300" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1155,300 1138.0,292.0 1138.0,308.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="575" y="411.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">USB / serial</text>
+<text x="1305" y="190.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">TCP / Ethernet</text>
+<polyline points="1305,370 1305,515" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1305,515 1313.0,498.0 1297.0,498.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="1420" y="458.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">0-3.3 V</text>
+<rect x="1155" y="515" width="300" height="130" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="1155,515 1455,515" fill="none" stroke="#007D83" stroke-width="5" stroke-linejoin="round"/>
+<text x="1305.0" y="561.8" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">DG1022Z</text>
+<text x="1305.0" y="606.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Waveform source</text>
+<rect x="700" y="515" width="300" height="130" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="700,515 1000,515" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="850.0" y="561.8" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">ATA-2081</text>
+<text x="850.0" y="606.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">HV amplifier</text>
+<rect x="245" y="515" width="300" height="130" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="245,515 545,515" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="395.0" y="561.8" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">DEP electrodes</text>
+<text x="395.0" y="606.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">Sorting chip</text>
+<polyline points="1155,580 1000,580" fill="none" stroke="#007D83" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1000,580 1017.0,588.0 1017.0,572.0" fill="#007D83" stroke="#007D83" stroke-width="2"/>
+<text x="1078" y="537.0" fill="#007D83" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">8 kHz</text>
+<polyline points="700,580 545,580" fill="none" stroke="#B97015" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="545,580 562.0,588.0 562.0,572.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<text x="621" y="537.0" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central">HV</text>
+<text x="395" y="682.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central">Target / waste routing</text>
+<polyline points="60,725 1540,725" fill="none" stroke="#B7C6C8" stroke-width="2" stroke-linejoin="round"/>
+<text x="60" y="760.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="central">INDEPENDENT FLUID DELIVERY</text>
+<rect x="60" y="805" width="540" height="85" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="60,805 600,805" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="330.0" y="847.5" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">LSP02-3B dual-channel pump</text>
+<polyline points="600,847 890,847" fill="none" stroke="#B97015" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="890,847 873.0,839.0 873.0,855.0" fill="#B97015" stroke="#B97015" stroke-width="2"/>
+<text x="745" y="777.26" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">CH1 aqueous</text>
+<text x="745" y="810.74" fill="#B97015" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central">CH2 oil</text>
+<rect x="890" y="805" width="650" height="85" fill="white" stroke="#B7C6C8" stroke-width="2"/>
+<polyline points="890,805 1540,805" fill="none" stroke="#B97015" stroke-width="5" stroke-linejoin="round"/>
+<text x="1215.0" y="847.5" fill="#172D35" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central">Generation / reinjection fluid paths</text>
+<text x="1550" y="925.0" fill="#52656B" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="400" text-anchor="end" dominant-baseline="central">Schematic; not to scale.</text>
+</svg>

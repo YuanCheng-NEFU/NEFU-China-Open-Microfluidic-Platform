@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "project": "NEFU-China-Open-Microfluidic-Platform",
+  "version": "0.8.1",
+  "status": "source-distribution",
+  "review_required": false,
+  "pending_review": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 472,
+      "sha256": "b3f9c4ec687339856c0d0ed3bf59603c3d615c0c6911bb780f3bbad56e2f3f0c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 1578,
+      "sha256": "2043311e5daf9d60737aa0b4b6f096359e6f908c462070ee34070e550d5a34be"
+    },
+    {
+      "path": "Examples/README.md",
+      "size": 367,
+      "sha256": "572b6905f0c70b64bc9e93681f1134ba68f2f3b41791e96de28a91530128e89d"
+    },
+    {
+      "path": "Examples/Video/Droplet_Microscopy.mp4",
+      "size": 36284414,
+      "sha256": "239085426f6b58e5c6fe9dddd35da466bbb8e2a6bfad3b5f3dd2a7a135c670bd"
+    },
+    {
+      "path": "Examples/Video/README.md",
+      "size": 177,
+      "sha256": "f6386bf685c42ca2d1dbce2c993fea6b411ef34374fb463ca0a00b2987eab669"
+    },
+    {
+      "path": "Hardware/BOM.xlsx",
+      "size": 17760,
+      "sha256": "f59fffab4299d77fbc852f09a268e8319711b6548e71e4bd9c68c942c76c0f47"
+    },
+    {
+      "path": "Hardware/BOM_CSV/Optical_Base_Quote.csv",
+      "size": 2922,
+      "sha256": "f9486b0b27d6ed3ad7d62f0e8d36c0edb87b6ae2cd05ad8abf28a2381a162587"
+    },
+    {
+      "path": "Hardware/BOM_CSV/Optical_Components.csv",
+      "size": 1409,
+      "sha256": "36e958dce400ce6f7cd80f288a66f2c4ff06576bd757e6b309d050b7ea77ec29"
+    },
+    {
+      "path": "Hardware/BOM_CSV/Platform_BOM.csv",
+      "size": 4465,
+      "sha256": "488827f4fa2424ee514b5e136cace1f94611d7ed1211156952d2ab0a4ea50a2d"
+    },
+    {
+      "path": "Hardware/BOM_CSV/Procurement_Notes.csv",
+      "size": 1351,
+      "sha256": "75ce7b4cbd95715f0851f9a7feb72e9aecf99fceaafe865d9c43e03b9fde70fa"
+    },
+    {
+      "path": "Hardware/Device_Specs.md",
+      "size": 7380,
+      "sha256": "36475af2e5b67a3a49c95e50fabee0120f61b247bffe8496cf563a55c72a1088"
+    },
+    {
+      "path": "Hardware/Figures/README.md",
+      "size": 2918,
+      "sha256": "cef9188b3ca9e75d5a5c3a8caa7a4950f64933ca707cc85e5f9436fc263e0ac3"
+    },
+    {
+      "path": "Hardware/Figures/build_figures.py",
+      "size": 13209,
+      "sha256": "e3165471959dfa945eaa669dbeb03dae0f7c80d77bdead1134b665d0a1a22a9f"
+    },
+    {
+      "path": "Hardware/Figures/optical_path.png",
+      "size": 80400,
+      "sha256": "55506aeb5ab78ee4ec53a2851289ee34a47b650246ad608acddb8b0ea72df45d"
+    },
+    {
+      "path": "Hardware/Figures/optical_path.svg",
+      "size": 8259,
+      "sha256": "82e14724804a7cb1c8f8c89221f556b46cb36598728f9525d450205029868b4c"
+    },
+    {
+      "path": "Hardware/Figures/system_architecture.png",
+      "size": 88213,
+      "sha256": "6d33a340a8758160f613fa3c70041228847a5728cb0323c9ac0fe1ef645300ce"
+    },
+    {
+      "path": "Hardware/Figures/system_architecture.svg",
+      "size": 9680,
+      "sha256": "02988dee35eba2aef5346be181cd6a6dad3821a4266e8aaaebcfd11e83f9692b"
+    },
+    {
+      "path": "Hardware/Figures/wiring_map.png",
+      "size": 131119,
+      "sha256": "a513d5b1bc1f5ea6bd0b3c5f545ac088e76ec43e3bfc65e51b77ff03d29fcede"
+    },
+    {
+      "path": "Hardware/Figures/wiring_map.svg",
+      "size": 12025,
+      "sha256": "326fadaee7b7f406a4d80cfb24dfde5c7ccce2ddf54847c6831b9aa4e7d2c24e"
+    },
+    {
+      "path": "Hardware/Figures/workflow.png",
+      "size": 80215,
+      "sha256": "d0c729f7bc73f0d4768020d8562054f7a8f9bcb515665c4cba886f5b62d60cae"
+    },
+    {
+      "path": "Hardware/Figures/workflow.svg",
+      "size": 9849,
+      "sha256": "dffc423da48423ac2161d115cd7d06570dbef05a881443bc214f2458bf8c3510"
+    },
+    {
+      "path": "Hardware/README.md",
+      "size": 1288,
+      "sha256": "7fad989949d9a3589bfc7ca37114067d395c3db969470688c74e63d4aeae6d14"
+    },
+    {
+      "path": "Hardware/System_Architecture.md",
+      "size": 5565,
+      "sha256": "1940263c12e79114e99d552b5d2807d8a0d0d59e17dbf1d851e00b7ef9a7f91d"
+    },
+    {
+      "path": "Hardware/Wiring_Diagram.md",
+      "size": 4728,
+      "sha256": "6f77c94518b019219651d2cc2e39848aaca70f298b7b511e50fe2c355eb7f385"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1324,
+      "sha256": "c5afb435a6681142037d57d99e5c5c57fd13b8eddbb415da2522029cec70b2fd"
+    },
+    {
+      "path": "LICENSE-DOCS",
+      "size": 886,
+      "sha256": "a41af740a4097156d5114d76d2c838aa80ef0e9d45713c310aa3a38dcb7af38b"
+    },
+    {
+      "path": "Manual/Build_and_Operation_Manual.docx",
+      "size": 831518,
+      "sha256": "509097c0e73088f4ac066cdff1c5a28ec894efa12fd2430e1d65f01c89ddbad6"
+    },
+    {
+      "path": "Manual/Build_and_Operation_Manual.md",
+      "size": 9132,
+      "sha256": "f2de38fae7cad42786d20a9839f0d4aa3fcc42bc7ca9df872abb8a7a9d34144b"
+    },
+    {
+      "path": "Manual/Build_and_Operation_Manual.pdf",
+      "size": 1002411,
+      "sha256": "6c461661a4dcaf4ce2d50de48f8089db8c023b6f03e1f0f5b19dad1a2a569b46"
+    },
+    {
+      "path": "Manual/README.md",
+      "size": 665,
+      "sha256": "5a2127c75e88f8210f05a98a434b4befdcb63212573d5746918595c21f751b25"
+    },
+    {
+      "path": "Manual/images/control_workspace.png",
+      "size": 90750,
+      "sha256": "e8fa43415cf32de803db8ab004fbfeec2824c5cc14416f88aefbff70abf339a9"
+    },
+    {
+      "path": "Manual/images/microfluidic_preview.png",
+      "size": 439341,
+      "sha256": "9397360429dbfb1890b656334121ab19c1a471fba7a4dececd94f0a2fe72c304"
+    },
+    {
+      "path": "Manual/manual_content.json",
+      "size": 15149,
+      "sha256": "c62ef4d07e9577b6b12648dd470194d4c13c7be26e394ee3f61d9bf2842a8f55"
+    },
+    {
+      "path": "README.md",
+      "size": 2834,
+      "sha256": "c0da5c73cc10046fb84e5b686e6055fdc2e0a5dd771d1447173da3d5226b1ada"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 996,
+      "sha256": "71c7d117a78fe72ea04f2e051a355d2aa5046de9454eac538da2f68fa8479dcb"
+    },
+    {
+      "path": "RELEASING.md",
+      "size": 2285,
+      "sha256": "6cfa4137b07d2c410ce02e230a0a787983d9747ea410f9fdf1595d6d6bc729af"
+    },
+    {
+      "path": "Software/PC_Control/README.md",
+      "size": 369,
+      "sha256": "4ab08ca347b6990e9e23b70d9812761cf89e8f88f3abfdd25496f60df220e6de"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/00_BUILD_TOTAL_CONTROL_V7_0_PERF.cmd",
+      "size": 3760,
+      "sha256": "54b8f73fd524893759a18ff7eec0e6d7aa02f018a5cafda1b7e9af7af35f6d65"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/00_FIRST_RUN_BUILD_AND_START.cmd",
+      "size": 634,
+      "sha256": "33493d9b8aea6218a6399eaf69f736ccf8acf5886a275bbbc22bfae0cf1fb6ac"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/01_RUN_CH297_BRIDGE_X86.cmd",
+      "size": 1392,
+      "sha256": "81e9992a50a054b1b342a5f2c37d49dc22a15516c30f471c4b047173aaccb954"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/02_RUN_TOTAL_CONTROL_V7_0.cmd",
+      "size": 1040,
+      "sha256": "14f392e3dbd15672385d6b3764a1252347343c60e6f075f8d68760ff1e8c7ba5"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/03_RUN_ALL_V7_0.cmd",
+      "size": 388,
+      "sha256": "30b4b0bb72f222aca87c3951aabc96b6d2464b3224bea12d7dfa04585db67317"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/04_CHECK_ENVIRONMENT.cmd",
+      "size": 173,
+      "sha256": "cdfe30bd8bf6f221d99fd8bcbf9e1b1246929fc904e35b86b5f8cf265a7c1b22"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/05_REGISTER_CH297_DLL_ADMIN.cmd",
+      "size": 907,
+      "sha256": "1ff8ac9898d817b9129733d2d718248f88d6ab35b68dac0ebe8d67ee10774f63"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/06_LIST_SERIAL_DEVICES.cmd",
+      "size": 628,
+      "sha256": "56baf4d2bf05ba9d8710174cf8aa85dcc857d81aa37195b3fa01d0e9458a828b"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/BUILDING.md",
+      "size": 3258,
+      "sha256": "2482d4ce447e7bb9587e6b67a18f158a4fa5068a5777ea935079c2290c89a769"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/BUILD_ID_V7_0_PERF.txt",
+      "size": 41,
+      "sha256": "26187fe1089b420700ff62dc632ec63df4b42af4fcb093ce607f523500081d26"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/Ch297Bridge.csproj",
+      "size": 1872,
+      "sha256": "4ff7356360585f7b1196b71cc842ddf947ecb80d594198c20c75b5e55e1431b1"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/NEFU_China_iDEC_V7.sln",
+      "size": 1507,
+      "sha256": "315eed51c822ea40ee6569689c184aa75403336476a96a7cbefeeace3720abac"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/README.md",
+      "size": 2402,
+      "sha256": "a65f0d8890525e726f1376f7e24ead0c1d483388611007bd8aab8069cd0ef885"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/TotalControl.csproj",
+      "size": 2295,
+      "sha256": "9b275b78483284aaf3e9023c03af9e04b332df3120c13b11a32438c53e473cbd"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/WINDOWS_RUNTIME.md",
+      "size": 1380,
+      "sha256": "d2f57ee0ec0928432b6ba0f3bb552b2807b35f6639a94b2369511d7e62faf410"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/ch297_bridge/Ch297BridgeV63.cs",
+      "size": 28882,
+      "sha256": "d9202b8d34cc27f443c9c57df70b73ff9f94c0e8afe3c66097869dee58918242"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/config/total_control_v6.example.json",
+      "size": 671,
+      "sha256": "a8f77dbbb3ad3615028e57f24960af2e69a1507e266d2b5ce30f4d39171e05e0"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/runtime/camera/README.md",
+      "size": 401,
+      "sha256": "84f98d2744e0f0df61075c1e3413906de35c6ae376e5a2e1b861c75f9f8cd255"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/runtime/ch297/README.md",
+      "size": 476,
+      "sha256": "29883fe2515fd8a34e96df169e95b8817b9e2423f8790a02c5d5d4a6cd16666b"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/CameraWorkstationV4.cs",
+      "size": 124356,
+      "sha256": "4ceed7bb0adc713218896147cf9929f032c40bf871c76a31fee7deb780dddf5b"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/Lsp02PumpController.cs",
+      "size": 15716,
+      "sha256": "7de98f28c9dfccf5e45fa8ddcefcfcb38f91a331465a034419e091a745cfe7b1"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/PynqV6Client.cs",
+      "size": 24947,
+      "sha256": "84729d5aaf062915dad3f1afc6706023d30e870119d6e9c94c7f541f1458c24b"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/TotalControlV6.cs",
+      "size": 54716,
+      "sha256": "40a758d54b77858540d0a815215cbc001840286ef9240eb57837531c2f9ca22c"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/V6AppSupport.cs",
+      "size": 10681,
+      "sha256": "9d29782c30370f8bb0accc559898edf597d984a6421e4dbd65b612279a6561c4"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/V6CameraPmtModules.cs",
+      "size": 27122,
+      "sha256": "7faf9d82b33aa49c83fc7ef777e4567a63b66428d779551f2f9af59dba6d2ce2"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/V6PumpModule.cs",
+      "size": 21550,
+      "sha256": "d6ae15b14fe05849d77ce925c7b8b5779d3b737edb0ca36d79bfe1cbc4c6a723"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/V6PynqModule.cs",
+      "size": 22037,
+      "sha256": "5de64e44b6c0ab3cd2441f8bef065cafeb9e957df7ff7cd6d2d2858222d1336f"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/src/V6WorkspaceControls.cs",
+      "size": 13193,
+      "sha256": "45c5e47d26261915732bdbd80cba15c835551a03d17561ccb176833539ca74c3"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/tests/test_projects.py",
+      "size": 4631,
+      "sha256": "a22a317a12a630520625c78f3eb7d34af0f187d8f5abe50a9203b7dfba696cb8"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/tests/test_runtime_preflight.ps1",
+      "size": 4081,
+      "sha256": "037e99783f4af8d7143a7d50e1015024fb481f2b21b15361b80fd97f76288c4f"
+    },
+    {
+      "path": "Software/PC_Control/TotalControl_V7_0/tools/Check-Runtime.ps1",
+      "size": 9756,
+      "sha256": "566e43b88f31aa441e38071b85f2ea07971418afcb75d0556b900a9b443066ab"
+    },
+    {
+      "path": "Software/PYNQ/README.md",
+      "size": 4335,
+      "sha256": "925fb419907c56e2abe68d9cb0319dd8375f4f231e43662913f480277c9eed02"
+    },
+    {
+      "path": "Software/PYNQ/pynq_v6_perf_server.py",
+      "size": 24175,
+      "sha256": "8dc2c04d021e9f6c7e3fba20b5def7fb6bf31419aecc51ddc29a50c88c3c5382"
+    },
+    {
+      "path": "Software/PYNQ/tests/test_perf_server.py",
+      "size": 11912,
+      "sha256": "27c65fe2484704865b94871a3765f6b4387e0f772e5c7a479cf5c0c78643f5b7"
+    },
+    {
+      "path": "VALIDATION.md",
+      "size": 1322,
+      "sha256": "1dbd19c7493240eceaee4a155543f4f0a5466cb84a6a50a345b65f0ea83adc2b"
+    },
+    {
+      "path": "release_manifest.json",
+      "size": 4793,
+      "sha256": "44e629649441bd2b492c2ef70dc050a373c98af101f1ef5e8f44b029ec725564"
+    },
+    {
+      "path": "scripts/build_manual.py",
+      "size": 15678,
+      "sha256": "23f42b0e1edcb237460ece2b806b3bd8a2a06de2a14b25e47fc114d5b3639457"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "size": 13590,
+      "sha256": "767cd3f04dfeec7ba6a56cc9930c3bd2ac12c0c9fdb46266553eac6aaebc5e7f"
+    },
+    {
+      "path": "scripts/build_windows_release.py",
+      "size": 6895,
+      "sha256": "25c774dc14d2aba2eb38673a11005fe06891c08a2e0bd24ef07bf3093e4b1545"
+    },
+    {
+      "path": "scripts/check_distribution.py",
+      "size": 3016,
+      "sha256": "31a8e3aa7e92d3c7b50cf5ab82abd7b33c29b0b310037e795902959f35627605"
+    },
+    {
+      "path": "scripts/export_manual.ps1",
+      "size": 809,
+      "sha256": "36c222b5a45f66fb1cf8a564ea233accf88095663abcbbe5d5f18e8f4af8bced"
+    },
+    {
+      "path": "tests/test_build_release.py",
+      "size": 13971,
+      "sha256": "e951beda838f05e0f9b7baf75ca4c9a9869c5ebcf6c18b2bc76db4c34d2cc23c"
+    },
+    {
+      "path": "tests/test_public_distribution.py",
+      "size": 2063,
+      "sha256": "296c7915764f393cb64b9b5604a70c4a9e592262230999d68e35f236372d09e4"
+    },
+    {
+      "path": "tests/test_windows_release.py",
+      "size": 5200,
+      "sha256": "b7ce28a8e1c29f9c7285e0002dd7c9479f614af0ccae2f209829a3f14a16e2d0"
+    }
+  ]
+}

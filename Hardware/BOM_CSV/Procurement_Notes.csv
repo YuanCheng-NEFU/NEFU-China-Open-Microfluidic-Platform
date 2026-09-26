@@ -1,0 +1,13 @@
+NEFU-China Open Microfluidic Platform bill of materials
+""
+1. This inventory records the equipment and consumables used in the platform.
+2. Prices are historical purchase prices or estimates in CNY. Obtain current supplier quotations when ordering.
+3. A blank price cell denotes an unquoted item; enter a supplier quotation during procurement.
+4. The function generator and high-voltage amplifier belong to the DEP configuration. The magnetic-valve prototype uses a separate architecture.
+5. The mCherry rows describe alternative excitation configurations. Select the LED or laser path and order its matching filters.
+6. Obtain PMTCount.dll and the camera SDK with OEApi64.dll directly from the equipment suppliers.
+"7. Historical platform budget: approximately CNY 50,000-80,000. The separate magnetic-valve prototype was approximately CNY 10,000."
+8. One LSP02-3B pump drives both phases: aqueous about 1.5 uL/min and oil 500 uL over 28.5 min (about 17.5 uL/min). Use the same pump for reinjection.
+"9. The reference incubation condition is 30 deg C for 16 h, as recorded in project report section 4.6."
+""
+"Sources: existing-equipment inventory; phase-two configuration inventory; FourInOne R2 inventory; January-September 2026 project records (14 May, 10 September p. 2, 20 August p. 7); report section 4.6; hardware specifications."
