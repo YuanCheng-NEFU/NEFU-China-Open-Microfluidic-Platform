@@ -2,7 +2,7 @@
 
 An integrated platform for droplet imaging, fluorescence photon counting, programmable gating and fluid delivery.
 
-[**Download Windows Package**](https://github.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.2/NEFU-China-Open-Microfluidic-Platform-0.8.2-windows-x64.zip) | [Build Guide](Manual/Build_Guide.pdf) | [Project Showcase](https://astrid-xu.github.io/NEFU-China-Open-Microfluidic-Platform/) | [Source & Releases](https://github.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/releases/tag/v0.8.2)
+[**Download Windows Package**](https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.3/NEFU-China-Open-Microfluidic-Platform-0.8.3-windows-x64.zip) | [Build Guide](Manual/Build_Guide.pdf) | [Project Showcase](https://yuancheng-nefu.github.io/NEFU-China-Open-Microfluidic-Platform/) | [Source & Releases](https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/tag/v0.8.3)
 
 ![Platform overview: droplet workflow, instrument architecture, optical design and representative project measurements](Hardware/Figures/project_overview.png)
 
@@ -37,7 +37,7 @@ Photon counts pass from the PMT through CH297 to the workstation and PYNQ-Z2. Th
 
 [![Droplets observed at the microfluidic junction](Examples/Images/camera_observation.png)](Examples/Video/Droplet_Microscopy.mp4)
 
-**[Watch droplet microscopy](https://astrid-xu.github.io/NEFU-China-Open-Microfluidic-Platform/#demonstration)** | [Download MP4](https://raw.githubusercontent.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/main/Examples/Video/Droplet_Microscopy.mp4) | 42.8 s / 728 x 544 / 10 fps
+**[Watch droplet microscopy](https://yuancheng-nefu.github.io/NEFU-China-Open-Microfluidic-Platform/#demonstration)** | [Download MP4](https://raw.githubusercontent.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/main/Examples/Video/Droplet_Microscopy.mp4) | 42.8 s / 728 x 544 / 10 fps
 
 ![Representative eGFP and uninduced photon-count traces and net photon counts](Examples/Images/photon_counting.png)
 
@@ -58,8 +58,8 @@ Photon counts pass from the PMT through CH297 to the workstation and PYNQ-Z2. Th
 
 | Download | Contents |
 | --- | --- |
-| [**Windows package 0.8.2**](https://github.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.2/NEFU-China-Open-Microfluidic-Platform-0.8.2-windows-x64.zip) | Workstation EXE, bridge EXE, all source, guide, hardware references and example media |
-| [Source package 0.8.2](https://github.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.2/NEFU-China-Open-Microfluidic-Platform-0.8.2.zip) | The same project resources, ready to build |
+| [**Windows package 0.8.3**](https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.3/NEFU-China-Open-Microfluidic-Platform-0.8.3-windows-x64.zip) | Workstation EXE, bridge EXE, all source, guide, hardware references and example media |
+| [Source package 0.8.3](https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.3/NEFU-China-Open-Microfluidic-Platform-0.8.3.zip) | The same project resources, ready to build |
 | [Build Guide PDF](Manual/Build_Guide.pdf) | Assembly, installation, first operation and troubleshooting |
 
 ### 2. Assemble and Connect

@@ -8,7 +8,7 @@ The Windows package includes all project source. From its extracted project root
 python scripts/build_release.py
 ```
 
-Extract the generated `dist/NEFU-China-Open-Microfluidic-Platform-0.8.2.zip` into a new directory. You can also use the separately supplied source archive.
+Extract the generated `dist/NEFU-China-Open-Microfluidic-Platform-0.8.3.zip` into a new directory. You can also use the separately supplied source archive.
 
 From the project root, run:
 
@@ -33,18 +33,18 @@ git commit -m "Release V7.0 PERF open platform"
 git branch -M main
 git remote add origin https://github.com/YOUR-ACCOUNT/NEFU-China-Open-Microfluidic-Platform.git
 git push -u origin main
-git tag v0.8.2
-git push origin v0.8.2
+git tag v0.8.3
+git push origin v0.8.3
 ```
 
 ## Publish the Release
 
-Create a GitHub release from tag `v0.8.2`, titled **NEFU-China Open Microfluidic Platform 0.8.2**. Use [RELEASE_NOTES.md](RELEASE_NOTES.md) as the release description and attach:
+Create a GitHub release from tag `v0.8.3`, titled **NEFU-China Open Microfluidic Platform 0.8.3**. Use [RELEASE_NOTES.md](RELEASE_NOTES.md) as the release description and attach:
 
 | Asset | Use |
 | --- | --- |
-| `NEFU-China-Open-Microfluidic-Platform-0.8.2-windows-x64.zip` | Complete project with prebuilt Windows applications |
-| `NEFU-China-Open-Microfluidic-Platform-0.8.2.zip` | Source distribution |
+| `NEFU-China-Open-Microfluidic-Platform-0.8.3-windows-x64.zip` | Complete project with prebuilt Windows applications |
+| `NEFU-China-Open-Microfluidic-Platform-0.8.3.zip` | Source distribution |
 | Matching `.sha256` files | Download checksums |
 
 The Windows package is the main download. It includes the guide, hardware resources, selected video and all project source; no additional example-data download is required.
