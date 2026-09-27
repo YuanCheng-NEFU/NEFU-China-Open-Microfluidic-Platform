@@ -1,7 +1,7 @@
 param([string]$Root = (Split-Path -Parent $PSScriptRoot))
 $ErrorActionPreference = 'Stop'
-$source = Join-Path $Root 'Manual\Build_and_Operation_Manual.docx'
-$target = Join-Path $Root 'Manual\Build_and_Operation_Manual.pdf'
+$source = Join-Path $Root 'Manual\Build_Guide.docx'
+$target = Join-Path $Root 'Manual\Build_Guide.pdf'
 $word = $null
 $document = $null
 try {

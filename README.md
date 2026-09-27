@@ -1,68 +1,97 @@
-# NEFU China Open Microfluidic Platform
+# NEFU-China Open Microfluidic Platform
 
-**Total Control V7.0 PERF**
+An integrated platform for droplet imaging, fluorescence photon counting, programmable gating and fluid delivery.
 
-An open workstation for camera observation, photon counting, programmable gating and fluid delivery.
+[**Download Windows Package**](https://github.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.2/NEFU-China-Open-Microfluidic-Platform-0.8.2-windows-x64.zip) | [Build Guide](Manual/Build_Guide.pdf) | [Project Showcase](https://astrid-xu.github.io/NEFU-China-Open-Microfluidic-Platform/) | [Source & Releases](https://github.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/releases/tag/v0.8.2)
 
-![Microfluidic channel](Manual/images/microfluidic_preview.png)
+![Platform overview: droplet workflow, instrument architecture, optical design and representative project measurements](Hardware/Figures/project_overview.png)
 
-[Build and Operation Guide](Manual/Build_and_Operation_Manual.pdf) · [Windows Setup](Software/PC_Control/TotalControl_V7_0/WINDOWS_RUNTIME.md) · [Hardware](Hardware/README.md) · [Microscopy Video](Examples/Video/Droplet_Microscopy.mp4)
+*From droplet preparation to fluorescence-triggered actuation. Original project overview from the NEFU-China iDEC presentation.*
 
-## Download
+## What We Built
 
-Choose **`NEFU-China-Open-Microfluidic-Platform-0.8.1-windows-x64.zip`** for the complete project: prebuilt applications, all project source, Visual Studio solution, hardware documentation, guide and selected microscopy video.
+**Total Control V7.0 PERF** brings the camera, CH297 photon counter, PYNQ-Z2 gate controller and syringe pump into one Windows workspace. The open project pairs this workstation with its source, hardware references and a step-by-step build guide.
 
-The separate **`NEFU-China-Open-Microfluidic-Platform-0.8.1.zip`** contains the same project resources without compiled executables.
+| Resource | Included |
+| --- | --- |
+| **Software** | Prebuilt x64 workstation and x86 CH297 bridge; C# source, Visual Studio solution and Python PYNQ service |
+| **Hardware** | Editable BOM, device specifications, signal wiring, optical diagrams and assembly photographs |
+| **Build Guide** | English PDF, editable Word and Markdown editions |
+| **Examples** | Droplet microscopy video, camera observation and representative photon-count results |
 
-## Start
+## System Overview
 
-Extract the Windows package, open `Software/PC_Control/TotalControl_V7_0`, and run:
+Photon counts pass from the PMT through CH297 to the workstation and PYNQ-Z2. The controller drives the external gate of the DEP actuation chain, while camera observation and syringe-driven fluid delivery share the same workspace.
+
+<table>
+<tr>
+<td width="50%"><img src="Hardware/Photos/optical_bench_side.png" alt="Side view of the imaging and fluorescence detection assembly" width="100%"></td>
+<td width="50%"><img src="Hardware/Photos/optical_bench_top.png" alt="Top view of the optical breadboard and detection branches" width="100%"></td>
+</tr>
+<tr><td>Imaging and fluorescence detection assembly</td><td>Optical breadboard and detection branches</td></tr>
+</table>
+
+[Hardware reference](Hardware/README.md) | [Bill of materials](Hardware/BOM.xlsx) | [Wiring](Hardware/Wiring_Diagram.md)
+
+## Demonstration
+
+[![Droplets observed at the microfluidic junction](Examples/Images/camera_observation.png)](Examples/Video/Droplet_Microscopy.mp4)
+
+**[Watch droplet microscopy](https://astrid-xu.github.io/NEFU-China-Open-Microfluidic-Platform/#demonstration)** | [Download MP4](https://raw.githubusercontent.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/main/Examples/Video/Droplet_Microscopy.mp4) | 42.8 s / 728 x 544 / 10 fps
+
+![Representative eGFP and uninduced photon-count traces and net photon counts](Examples/Images/photon_counting.png)
+
+*Representative eGFP and uninduced measurements from the project presentation. The original plotted comparisons are retained.*
+
+## Key Features
+
+- **One instrument workspace.** Camera observation, photon counting, PYNQ gate control and syringe-pump settings in Total Control V7.0 PERF.
+- **Programmable gating.** Threshold and hysteresis control, manual output commands and automatic LOW on data or connection timeout.
+- **Coordinated operation.** Integrated start and stop, camera recording and CH1 pump operation.
+- **Open engineering resources.** Buildable source, an editable component inventory and documented optical, electrical and fluidic connections.
+
+![Total Control V7.0 PERF workspace](Manual/images/control_workspace.png)
+
+## Build It Yourself
+
+### 1. Get the Project
+
+| Download | Contents |
+| --- | --- |
+| [**Windows package 0.8.2**](https://github.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.2/NEFU-China-Open-Microfluidic-Platform-0.8.2-windows-x64.zip) | Workstation EXE, bridge EXE, all source, guide, hardware references and example media |
+| [Source package 0.8.2](https://github.com/Astrid-Xu/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.2/NEFU-China-Open-Microfluidic-Platform-0.8.2.zip) | The same project resources, ready to build |
+| [Build Guide PDF](Manual/Build_Guide.pdf) | Assembly, installation, first operation and troubleshooting |
+
+### 2. Assemble and Connect
+
+Follow the [Build Guide](Manual/Build_Guide.pdf) for optical assembly, chip and tubing setup, instrument wiring and digital commissioning. Install .NET Framework 4.8+ and the camera/CH297 vendor components using [Windows Setup](Software/PC_Control/TotalControl_V7_0/WINDOWS_RUNTIME.md). Deploy the matching [PYNQ service](Software/PYNQ/README.md).
+
+Keep the DEP amplifier physically disabled during wiring and digital commissioning.
+
+### 3. Start the Workstation
+
+Extract the Windows package and open `Software/PC_Control/TotalControl_V7_0`:
 
 ```bat
 04_CHECK_ENVIRONMENT.cmd --no-pause
 02_RUN_TOTAL_CONTROL_V7_0.cmd
 ```
 
-The package includes the x64 workstation and x86 CH297 bridge. Install .NET Framework 4.8+ and the instrument vendors' camera/CH297 components before hardware commissioning.
+To compile from source, run `00_BUILD_TOTAL_CONTROL_V7_0_PERF.cmd --no-pause` or open [NEFU_China_iDEC_V7.sln](Software/PC_Control/TotalControl_V7_0/NEFU_China_iDEC_V7.sln). See [Build Instructions](Software/PC_Control/TotalControl_V7_0/BUILDING.md).
 
-## Build
+### Project Structure
 
-```bat
-00_BUILD_TOTAL_CONTROL_V7_0_PERF.cmd --no-pause
-```
-
-Alternatively, open [NEFU_China_iDEC_V7.sln](Software/PC_Control/TotalControl_V7_0/NEFU_China_iDEC_V7.sln). See [BUILDING.md](Software/PC_Control/TotalControl_V7_0/BUILDING.md).
-
-## Connect
-
-Deploy [the matching V7 PERF service](Software/PYNQ/README.md) to PYNQ-Z2. The PC sends `PYNQ_PERF_V1` samples and records `PYNQ_ACK_V1` acknowledgements. Use PMOD B pin 1 for GATE and pin 2 for RX_MARK timing measurements.
-
-Keep the DEP amplifier disabled during digital commissioning. Follow the guide for optical alignment, fluid priming and measured output checks.
-
-## Explore
-
-| Directory | Contents |
+| Directory | Start Here |
 | --- | --- |
-| `Software/` | V7 workstation, acquisition bridge, PYNQ service and tests |
-| `Manual/` | English PDF, editable Word and Markdown guide |
-| `Hardware/` | BOM, specifications and editable engineering figures |
-| `Examples/` | Selected droplet microscopy video |
-| `scripts/` | Reproducible source and Windows packaging |
+| [Manual](Manual/README.md) | Build Guide in PDF, Word and Markdown |
+| [Software](Software/PC_Control/README.md) | Windows control platform and [PYNQ service](Software/PYNQ/README.md) |
+| [Hardware](Hardware/README.md) | BOM, diagrams, wiring and photographs |
+| [Examples](Examples/README.md) | Selected video and project images |
 
-## Verify and Package
-
-```bash
-python -m unittest discover -s tests -v
-python -m unittest discover -s Software/PYNQ/tests -p test_perf_server.py -v
-python scripts/check_distribution.py
-python scripts/build_release.py
-python scripts/build_windows_release.py
-```
-
-See [VALIDATION.md](VALIDATION.md), [RELEASE_NOTES.md](RELEASE_NOTES.md) and [RELEASING.md](RELEASING.md).
+[Release notes](RELEASE_NOTES.md) | [Packaging](RELEASING.md) | [Validation](VALIDATION.md)
 
 ## License
 
-Software: [MIT](LICENSE). Project documentation, original diagrams and example media: [CC BY 4.0](LICENSE-DOCS). Vendor SDKs retain their own terms and are installed separately.
+Software: [MIT](LICENSE). Project documentation, original diagrams and example media: [CC BY 4.0](LICENSE-DOCS). Vendor components are installed under their own licenses.
 
-NEFU-China iDEC Experimental Group · Northeast Forestry University.
+**NEFU-China iDEC Experimental Group** | Northeast Forestry University

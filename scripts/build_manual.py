@@ -147,16 +147,16 @@ def build_pdf(data):
         item.drawWidth = width * inch
         return KeepTogether([item, Spacer(1, 3), p(caption, 'caption')])
     def page_frame(canvas, doc):
-        canvas.setTitle('NEFU China Open Microfluidic Platform Build and Operation Guide')
+        canvas.setTitle('NEFU China Microfluidic Platform Build Guide')
         canvas.setAuthor('NEFU-China iDEC Experimental Group')
         if doc.page > 1:
             canvas.setFont(regular, 8)
             canvas.drawString(.82 * inch, 10.65 * inch, 'NEFU-CHINA    OPEN MICROFLUIDIC PLATFORM')
             canvas.setFillColor(colors.HexColor('#526066'))
-            canvas.drawString(.82 * inch, .35 * inch, 'Build and Operation Guide     |     Edition ' + data['edition'])
+            canvas.drawString(.82 * inch, .35 * inch, 'Platform Build Guide     |     Edition ' + data['edition'])
             canvas.drawRightString(7.68 * inch, .35 * inch, str(doc.page))
     story = [p('NEFU-CHINA', 'subheading'), Spacer(1, 27), p('Open Microfluidic\nPlatform', 'title'),
-             p('Build and Operation Guide', 'subtitle'), p('Total Control V7.0 PERF'),
+             p('Microfluidic Platform Build Guide', 'subtitle'), p('Total Control V7.0 PERF'),
              figure('Manual/images/microfluidic_preview.png', 'Microfluidic droplet observation from the optical-bench reference video.', 6),
              Spacer(1, 12), p('EDITION ' + data['edition'] + '     /     SEPTEMBER 2026', 'part'),
              p('NEFU-China iDEC Experimental Group\nNortheast Forestry University')]
@@ -184,7 +184,7 @@ def build_pdf(data):
                     ('LEFTPADDING', (0, 0), (-1, -1), 5.5), ('RIGHTPADDING', (0, 0), (-1, -1), 5.5),
                 ]))
                 story += [t, Spacer(1, 6)]
-    doc = SimpleDocTemplate(str(OUT / 'Build_and_Operation_Manual.pdf'), pagesize=(8.5 * inch, 11 * inch),
+    doc = SimpleDocTemplate(str(OUT / 'Build_Guide.pdf'), pagesize=(8.5 * inch, 11 * inch),
                             topMargin=.7 * inch, bottomMargin=.65 * inch, leftMargin=.82 * inch, rightMargin=.82 * inch)
     doc.build(story, onFirstPage=page_frame, onLaterPages=page_frame)
 
@@ -231,11 +231,11 @@ def main():
     footer = section.footer.paragraphs[0]
     footer.paragraph_format.tab_stops.clear_all()
     doc.styles['Footer'].paragraph_format.tab_stops.clear_all()
-    text(footer, 'Build and Operation Guide     |     Edition ' + data['edition'], size=8, color=GRAY)
+    text(footer, 'Platform Build Guide     |     Edition ' + data['edition'], size=8, color=GRAY)
     footer.paragraph_format.tab_stops.add_tab_stop(Inches(6.8), WD_TAB_ALIGNMENT.RIGHT)
     footer.add_run('\t')
     add_field(footer, 'PAGE')
-    doc.core_properties.title = 'NEFU China Open Microfluidic Platform Build and Operation Guide'
+    doc.core_properties.title = 'NEFU China Microfluidic Platform Build Guide'
     doc.core_properties.subject = 'Assembly, commissioning and operation of a fluorescence guided droplet sorting platform'
     doc.core_properties.author = 'NEFU-China iDEC Experimental Group'
     doc.core_properties.last_modified_by = 'NEFU-China iDEC Experimental Group'
@@ -248,7 +248,7 @@ def main():
         run.bold = True
     p.paragraph_format.space_after = Pt(37)
     paragraph(doc, 'Open Microfluidic\nPlatform', 'Title')
-    p = paragraph(doc, 'Build and Operation Guide', 'Subtitle')
+    p = paragraph(doc, 'Microfluidic Platform Build Guide', 'Subtitle')
     p.paragraph_format.space_after = Pt(24)
     paragraph(doc, 'Total Control V7.0 PERF')
     picture(doc, 'Manual/images/microfluidic_preview.png', 'Microfluidic droplet observation from the optical-bench reference video.', width=6.0)
@@ -258,11 +258,11 @@ def main():
         r.font.size = Pt(9)
         r.bold = True
     paragraph(doc, 'NEFU-China iDEC Experimental Group\nNortheast Forestry University')
-    md = ['# NEFU China Open Microfluidic Platform', '', '## Build and Operation Guide', '', 'Edition ' + data['edition'] + ' | September 2026', '']
+    md = ['# NEFU China Open Microfluidic Platform', '', '## Microfluidic Platform Build Guide', '', 'Edition ' + data['edition'] + ' | September 2026', '']
 
     for page in data['pages']:
-        doc.add_page_break()
         p = paragraph(doc, page['part'])
+        p.paragraph_format.page_break_before = True
         p.paragraph_format.space_after = Pt(5)
         for r in p.runs:
             r.font.size = Pt(9)
@@ -307,9 +307,9 @@ def main():
                 md += ['```' + item.get('lang', 'text'), item['text'], '```', '']
             else:
                 raise ValueError(kind)
-    path = OUT / 'Build_and_Operation_Manual.docx'
+    path = OUT / 'Build_Guide.docx'
     doc.save(path)
-    (OUT / 'Build_and_Operation_Manual.md').write_text('\n'.join(md), encoding='utf-8')
+    (OUT / 'Build_Guide.md').write_text('\n'.join(md), encoding='utf-8')
     build_pdf(data)
     print(path)
 

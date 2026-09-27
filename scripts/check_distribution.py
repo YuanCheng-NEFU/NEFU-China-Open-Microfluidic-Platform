@@ -11,7 +11,7 @@ from xml.etree import ElementTree
 ROOT = Path(__file__).resolve().parents[1]
 TEXT_SUFFIXES = {".md", ".txt", ".py", ".cs", ".json", ".csv", ".cmd",
                  ".ps1", ".sh", ".ini", ".svg", ".ipynb", ".gitignore",
-                 ".csproj", ".sln"}
+                 ".csproj", ".sln", ".html"}
 CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
 LINK = re.compile(r"!?" + r"\[[^\]]*\]\(([^)]+)\)")
 

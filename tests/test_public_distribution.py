@@ -36,7 +36,7 @@ class PublicDistributionTests(unittest.TestCase):
             app + "src/TotalControlV6.cs", app + "ch297_bridge/Ch297BridgeV63.cs",
             app + "config/total_control_v6.example.json",
             "Software/PYNQ/pynq_v6_perf_server.py", "Hardware/BOM.xlsx",
-            "Manual/Build_and_Operation_Manual.pdf", "RELEASING.md", "LICENSE",
+            "Manual/Build_Guide.pdf", "RELEASING.md", "LICENSE",
         }
         self.assertFalse(required - self.files, required - self.files)
         for name in required:

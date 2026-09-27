@@ -2,6 +2,8 @@
 
 Original, editable engineering schematics for the NEFU-China Open Microfluidic Platform.
 
+[Project overview](project_overview.png) is an additional original figure selected from the team's iDEC presentation, showing the droplet workflow, instrument architecture, optical design and representative measurements.
+
 | Figure | Content |
 | --- | --- |
 | `system_architecture` | Photon acquisition, PC sample forwarding, PYNQ gate control, DEP actuation, parallel imaging, and independent fluid delivery. |

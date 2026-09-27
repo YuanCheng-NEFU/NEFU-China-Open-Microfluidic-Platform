@@ -9,6 +9,9 @@ The platform combines syringe-driven fluidics, spectrally separated imaging and 
 | [System architecture](System_Architecture.md) | Fluidic workflow, decision chain, and session records |
 | [Wiring diagram](Wiring_Diagram.md) | Port assignments, signal levels, and commissioning sequence |
 | [Device specifications](Device_Specs.md) | Equipment parameters and integration details |
+| [Platform overview](Figures/project_overview.png) | Original project workflow, instrument architecture and representative results |
+| [Side-view photograph](Photos/optical_bench_side.png) | Assembled imaging and fluorescence detection optics |
+| [Top-view photograph](Photos/optical_bench_top.png) | Optical breadboard, detection branches and chip positioning stage |
 
 The workbook contains 28 platform items, 29 optical-component items, and all 55 line items in the historical optical-base quotation. The quotation totals 95 units and CNY 22,851. Equipment shared between the platform inventory and the optical-base kit appears in both views; use the kit breakdown when preparing a purchase order.
 

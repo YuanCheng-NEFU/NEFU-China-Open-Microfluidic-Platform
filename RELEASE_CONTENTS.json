@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "NEFU-China-Open-Microfluidic-Platform",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "status": "source-distribution",
   "review_required": false,
   "pending_review": [],
@@ -17,9 +17,19 @@
       "sha256": "2043311e5daf9d60737aa0b4b6f096359e6f908c462070ee34070e550d5a34be"
     },
     {
+      "path": "Examples/Images/camera_observation.png",
+      "size": 606863,
+      "sha256": "5c35de39e29b0cb9576db3b8ea9bd5d03c2d7c7f480a13f18121bb6b8353ab14"
+    },
+    {
+      "path": "Examples/Images/photon_counting.png",
+      "size": 110231,
+      "sha256": "24d0cd1ee15e6b53968b464972929c68f80aeb2093b40ae9d995915666ca23c7"
+    },
+    {
       "path": "Examples/README.md",
-      "size": 367,
-      "sha256": "572b6905f0c70b64bc9e93681f1134ba68f2f3b41791e96de28a91530128e89d"
+      "size": 738,
+      "sha256": "a43609f5c0402aa95219f8bba23d809b0838e1293582d60eb1e818ce656bbd14"
     },
     {
       "path": "Examples/Video/Droplet_Microscopy.mp4",
@@ -63,8 +73,8 @@
     },
     {
       "path": "Hardware/Figures/README.md",
-      "size": 2918,
-      "sha256": "cef9188b3ca9e75d5a5c3a8caa7a4950f64933ca707cc85e5f9436fc263e0ac3"
+      "size": 3140,
+      "sha256": "08faf626a56431f0240bc51cd1d6ee11cf66f001ffc1fb127825888fd2f8541f"
     },
     {
       "path": "Hardware/Figures/build_figures.py",
@@ -80,6 +90,11 @@
       "path": "Hardware/Figures/optical_path.svg",
       "size": 8259,
       "sha256": "82e14724804a7cb1c8f8c89221f556b46cb36598728f9525d450205029868b4c"
+    },
+    {
+      "path": "Hardware/Figures/project_overview.png",
+      "size": 711354,
+      "sha256": "ffa4f39284efcf6e01e8f992a2cedc477c0e5722ac9f593de3031cdfdd0fbf52"
     },
     {
       "path": "Hardware/Figures/system_architecture.png",
@@ -112,9 +127,19 @@
       "sha256": "dffc423da48423ac2161d115cd7d06570dbef05a881443bc214f2458bf8c3510"
     },
     {
+      "path": "Hardware/Photos/optical_bench_side.png",
+      "size": 397805,
+      "sha256": "838f7f4fddfc61a561007d9968e112282dc6f440474720b3fa883ddb4bffc0b3"
+    },
+    {
+      "path": "Hardware/Photos/optical_bench_top.png",
+      "size": 942815,
+      "sha256": "691a3619ac5b9c533e7a1f24c318f1e63056610a927d318d0ec745025cf24c9d"
+    },
+    {
       "path": "Hardware/README.md",
-      "size": 1288,
-      "sha256": "7fad989949d9a3589bfc7ca37114067d395c3db969470688c74e63d4aeae6d14"
+      "size": 1658,
+      "sha256": "eaf4f36679a2f9dfdc87fd95ffc354fd5f38534062b11b944f2571ecfb29e171"
     },
     {
       "path": "Hardware/System_Architecture.md",
@@ -134,27 +159,27 @@
     {
       "path": "LICENSE-DOCS",
       "size": 886,
-      "sha256": "a41af740a4097156d5114d76d2c838aa80ef0e9d45713c310aa3a38dcb7af38b"
+      "sha256": "f6f2994a20b5bf89c3a4b7d31d08d19e0b1f97efc9e669cd0173b00549eb3400"
     },
     {
-      "path": "Manual/Build_and_Operation_Manual.docx",
-      "size": 831518,
-      "sha256": "509097c0e73088f4ac066cdff1c5a28ec894efa12fd2430e1d65f01c89ddbad6"
+      "path": "Manual/Build_Guide.docx",
+      "size": 1111103,
+      "sha256": "d6ef2de24c2164fdc15077f1fefc27970fcdefa980eb3ba2d5dec1de1b406b00"
     },
     {
-      "path": "Manual/Build_and_Operation_Manual.md",
-      "size": 9132,
-      "sha256": "f2de38fae7cad42786d20a9839f0d4aa3fcc42bc7ca9df872abb8a7a9d34144b"
+      "path": "Manual/Build_Guide.md",
+      "size": 23671,
+      "sha256": "c465513c4ee1930570327c0e7d18f0f3df69fef648d47a91d1fbdf30d5fd6fb2"
     },
     {
-      "path": "Manual/Build_and_Operation_Manual.pdf",
-      "size": 1002411,
-      "sha256": "6c461661a4dcaf4ce2d50de48f8089db8c023b6f03e1f0f5b19dad1a2a569b46"
+      "path": "Manual/Build_Guide.pdf",
+      "size": 596422,
+      "sha256": "79411394597bd12980adb966ebe162acca4b9d045199c5edb71157a6c1525700"
     },
     {
       "path": "Manual/README.md",
-      "size": 665,
-      "sha256": "5a2127c75e88f8210f05a98a434b4befdcb63212573d5746918595c21f751b25"
+      "size": 820,
+      "sha256": "efffc60bfb333f78f0adb9cc3cb74184314f04c11a9a6211cecbcf17ce80782c"
     },
     {
       "path": "Manual/images/control_workspace.png",
@@ -168,23 +193,23 @@
     },
     {
       "path": "Manual/manual_content.json",
-      "size": 15149,
-      "sha256": "c62ef4d07e9577b6b12648dd470194d4c13c7be26e394ee3f61d9bf2842a8f55"
+      "size": 27719,
+      "sha256": "01fe4478c1e4d732bdcc0b3c7eb5823588855f553513bf8c8cde7f5bce398819"
     },
     {
       "path": "README.md",
-      "size": 2834,
-      "sha256": "c0da5c73cc10046fb84e5b686e6055fdc2e0a5dd771d1447173da3d5226b1ada"
+      "size": 6020,
+      "sha256": "3b3ac458309eb30ae12c2b78da593f88697d8a32bf86f9538cf76fb3eba210e4"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "size": 996,
-      "sha256": "71c7d117a78fe72ea04f2e051a355d2aa5046de9454eac538da2f68fa8479dcb"
+      "size": 1937,
+      "sha256": "a8cbc2fe780184c3c30e9c92b86dc87f50b4b4a9ab1b96e2bda377966febde86"
     },
     {
       "path": "RELEASING.md",
       "size": 2285,
-      "sha256": "6cfa4137b07d2c410ce02e230a0a787983d9747ea410f9fdf1595d6d6bc729af"
+      "sha256": "13af743c34b19961b8ad7ecb62bc2cb260c2959ab5069e22b367c9726b016bdf"
     },
     {
       "path": "Software/PC_Control/README.md",
@@ -367,14 +392,19 @@
       "sha256": "1dbd19c7493240eceaee4a155543f4f0a5466cb84a6a50a345b65f0ea83adc2b"
     },
     {
+      "path": "docs/index.html",
+      "size": 18257,
+      "sha256": "82d915df21db428a19bf02111bfcbe652808f4d37a78e68c551d8b4728be9dfb"
+    },
+    {
       "path": "release_manifest.json",
-      "size": 4793,
-      "sha256": "44e629649441bd2b492c2ef70dc050a373c98af101f1ef5e8f44b029ec725564"
+      "size": 4996,
+      "sha256": "8ac34a856f121deb2001b3abefe63e436fc9448509c758114d37692c293f40c4"
     },
     {
       "path": "scripts/build_manual.py",
-      "size": 15678,
-      "sha256": "23f42b0e1edcb237460ece2b806b3bd8a2a06de2a14b25e47fc114d5b3639457"
+      "size": 15632,
+      "sha256": "e9e68fbebef86a607886b803c273432341ebbb206f850a9a99394ebc610f63cc"
     },
     {
       "path": "scripts/build_release.py",
@@ -388,13 +418,13 @@
     },
     {
       "path": "scripts/check_distribution.py",
-      "size": 3016,
-      "sha256": "31a8e3aa7e92d3c7b50cf5ab82abd7b33c29b0b310037e795902959f35627605"
+      "size": 3025,
+      "sha256": "6d98cf8a5c88a8c40649e869d3663da9f27b194ff8f9fa682459d873b634c153"
     },
     {
       "path": "scripts/export_manual.ps1",
-      "size": 809,
-      "sha256": "36c222b5a45f66fb1cf8a564ea233accf88095663abcbbe5d5f18e8f4af8bced"
+      "size": 779,
+      "sha256": "0044d1f1e9c0fdcb84cc3c5c672c646f989730b8d05d39d814434c36db12677f"
     },
     {
       "path": "tests/test_build_release.py",
@@ -403,8 +433,8 @@
     },
     {
       "path": "tests/test_public_distribution.py",
-      "size": 2063,
-      "sha256": "296c7915764f393cb64b9b5604a70c4a9e592262230999d68e35f236372d09e4"
+      "size": 2048,
+      "sha256": "f25ff5bf87856ba6cf08f009f288a1f9af450164042228f111af8a854333dc08"
     },
     {
       "path": "tests/test_windows_release.py",
