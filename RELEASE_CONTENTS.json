@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "NEFU-China-Open-Microfluidic-Platform",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "status": "source-distribution",
   "review_required": false,
   "pending_review": [],
@@ -198,18 +198,18 @@
     },
     {
       "path": "README.md",
-      "size": 6020,
-      "sha256": "3b3ac458309eb30ae12c2b78da593f88697d8a32bf86f9538cf76fb3eba210e4"
+      "size": 6055,
+      "sha256": "641a019483827ba0e13f373012f7ce4aca92093aeed54af2e01a01a01583ac25"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "size": 1937,
-      "sha256": "a8cbc2fe780184c3c30e9c92b86dc87f50b4b4a9ab1b96e2bda377966febde86"
+      "size": 1793,
+      "sha256": "4429b703e9f2f2cb2a86648f4c1bc9ec2a89c489801c963a3a785da9a022a369"
     },
     {
       "path": "RELEASING.md",
       "size": 2285,
-      "sha256": "13af743c34b19961b8ad7ecb62bc2cb260c2959ab5069e22b367c9726b016bdf"
+      "sha256": "491b8310e5abdf5e4df0ca59a0531d63ac3382a6866b568bface2f3cc95a2f2c"
     },
     {
       "path": "Software/PC_Control/README.md",
@@ -393,13 +393,13 @@
     },
     {
       "path": "docs/index.html",
-      "size": 18257,
-      "sha256": "82d915df21db428a19bf02111bfcbe652808f4d37a78e68c551d8b4728be9dfb"
+      "size": 18412,
+      "sha256": "466bc61c22dec95fa779de4771610b041aced51c949bbf83ed48faf66cd903f2"
     },
     {
       "path": "release_manifest.json",
       "size": 4996,
-      "sha256": "8ac34a856f121deb2001b3abefe63e436fc9448509c758114d37692c293f40c4"
+      "sha256": "b9791cd42c8f737fc99de395c577b3dc11f174c27a5470fbb44b21ef0225afdf"
     },
     {
       "path": "scripts/build_manual.py",
