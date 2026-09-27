@@ -6,7 +6,9 @@
   <meta name="theme-color" content="#103f37">
   <meta name="description" content="The NEFU-China open microfluidic platform. Explore the optical assembly, integrated Windows control software, microscopy demonstrations and platform build guide.">
   <meta property="og:title" content="NEFU-China Open Microfluidic Platform">
-  <meta property="og:description" content="Imaging, photon counting, programmable gating and fluid delivery in one open workstation.">
+  <meta property="og:description" content="An open-source microfluidic platform by the NEFU-China iDEC team at Northeast Forestry University.">
+  <meta property="og:url" content="https://yuancheng-nefu.github.io/NEFU-China-Open-Microfluidic-Platform/">
+  <link rel="canonical" href="https://yuancheng-nefu.github.io/NEFU-China-Open-Microfluidic-Platform/">
   <meta property="og:image" content="https://raw.githubusercontent.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/main/Hardware/Figures/project_overview.png">
   <meta property="og:type" content="website">
   <title>NEFU-China Open Microfluidic Platform</title>
@@ -34,9 +36,16 @@
     .brand { font-size:16px; font-weight:700; color:var(--ink); white-space:nowrap; text-decoration:none; }
     nav { display:flex; gap:25px; align-items:center; flex-wrap:wrap; }
     nav a { font-size:14px; text-decoration:none; }
-    .intro { padding:58px 0 32px; }
+    .intro { padding:28px 0 28px; }
+    .identity { display:grid; grid-template-columns:77px 80px minmax(0,1fr); align-items:center; gap:24px; margin-bottom:26px; }
+    .identity a { display:block; }
+    .identity .team-mark { width:77px; height:96px; object-fit:contain; }
+    .identity .university-mark { width:80px; height:80px; object-fit:contain; }
+    .identity-text { display:flex; flex-direction:column; gap:3px; font-size:14px; line-height:1.5; }
+    .identity-text strong { font-weight:600; color:var(--green); }
+    .identity-text span { color:var(--muted); }
     .eyebrow { color:var(--green); font-size:13px; font-weight:700; margin:0 0 16px; }
-    .lead { color:var(--muted); font-size:20px; line-height:1.55; max-width:760px; margin-top:20px; }
+    .lead { color:var(--muted); font-size:18px; line-height:1.55; max-width:800px; margin-top:18px; }
     .actions { display:flex; align-items:center; flex-wrap:wrap; gap:14px 24px; margin:26px 0 0; }
     .download { display:inline-flex; justify-content:center; align-items:center; min-height:46px; padding:10px 20px; color:#fff; background:var(--green); border:1px solid var(--green); border-radius:3px; font-weight:600; text-decoration:none; }
     .download:hover { color:#fff; background:#225c50; }
@@ -50,6 +59,8 @@
     .section-intro { color:var(--muted); max-width:750px; margin:16px 0 28px; }
     .capabilities { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:28px; padding:30px 0 0; border-top:1px solid var(--line); }
     .capabilities p { color:var(--muted); font-size:15px; margin:12px 0 0; }
+    .signal-chain { display:flex; flex-wrap:wrap; list-style:none; padding:0; margin:0 0 28px; gap:10px 0; font-size:14px; color:var(--green); }
+    .signal-chain li:not(:last-child)::after { content:"\2192"; display:inline-block; margin:0 15px; color:var(--muted); }
     .photo-grid { display:grid; grid-template-columns:1fr 1fr; gap:28px; }
     .photo-grid img { aspect-ratio:1; object-fit:contain; background:#fff; }
     .links { display:flex; gap:12px 28px; flex-wrap:wrap; margin:28px 0 0; }
@@ -75,7 +86,7 @@
       h1 { font-size:34px; } h2 { font-size:27px; }
       .navigation { gap:16px; padding:14px 0; align-items:flex-start; }
       nav { gap:8px 18px; justify-content:flex-end; }
-      .intro { padding-top:40px; }
+      .intro { padding-top:24px; }
       .capabilities { grid-template-columns:1fr 1fr; }
       .build-grid { gap:36px; }
       .demo-grid { grid-template-columns:1fr; }
@@ -88,6 +99,12 @@
       nav a { font-size:13px; }
       h1 { font-size:30px; } h2 { font-size:25px; }
       .lead { font-size:18px; }
+      .identity { grid-template-columns:58px 62px minmax(0,1fr); gap:12px; margin-bottom:24px; }
+      .identity .team-mark { width:58px; height:73px; }
+      .identity .university-mark { width:62px; height:62px; }
+      .identity-text { font-size:12px; line-height:1.45; }
+      .intro .actions { margin-top:20px; }
+      .intro .eyebrow { font-size:11px; margin-bottom:12px; }
       .section { padding:40px 0; }
       .section-head { display:block; }
       .section-head > a { display:inline-block; margin-top:12px; }
@@ -118,22 +135,31 @@
   </header>
   <main id="main">
     <div class="wrap intro">
+      <div class="identity" role="group" aria-label="Project team and university">
+        <a href="assets/nefu-china-logo.png" aria-label="View the original NEFU-China team logo">
+          <img class="team-mark" src="assets/nefu-china-logo.png" width="1122" height="1402" alt="NEFU-China team logo">
+        </a>
+        <a href="assets/nefu-emblem.png" aria-label="View the original Northeast Forestry University emblem">
+          <img class="university-mark" src="assets/nefu-emblem.png" width="2048" height="2048" alt="Northeast Forestry University emblem">
+        </a>
+        <div class="identity-text"><strong>NEFU-China iDEC Team</strong><span>Northeast Forestry University</span></div>
+      </div>
       <p class="eyebrow">OPEN INSTRUMENTATION / TOTAL CONTROL V7.0 PERF</p>
       <h1>NEFU-China<br>Open Microfluidic Platform</h1>
-      <p class="lead">Imaging, photon counting, programmable gating and fluid delivery in one open workstation.</p>
+      <p class="lead">An integrated open-source platform for fluorescence detection and dielectrophoretic droplet sorting.</p>
       <div class="actions">
-        <a class="download" href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.3/NEFU-China-Open-Microfluidic-Platform-0.8.3-windows-x64.zip">Download for Windows</a>
+        <a class="download" href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.4/NEFU-China-Open-Microfluidic-Platform-0.8.4-windows-x64.zip">Download for Windows</a>
         <a href="https://raw.githubusercontent.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/main/Manual/Build_Guide.pdf">Build Guide</a>
-        <a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.3/NEFU-China-Open-Microfluidic-Platform-0.8.3.zip">Source Code</a>
+        <a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/download/v0.8.4/NEFU-China-Open-Microfluidic-Platform-0.8.4.zip">Source Code</a>
       </div>
-      <p class="release">Release 0.8.3 &middot; Windows workstation and PYNQ-Z2 control</p>
+      <p class="release">Release 0.8.4 &middot; Windows + PYNQ-Z2</p>
     </div>
     <section class="wrap overview" id="overview" aria-label="System overview">
       <figure>
         <a class="overview-image" href="https://raw.githubusercontent.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/main/Hardware/Figures/project_overview.png" aria-label="Open the full-resolution system overview">
           <img src="https://raw.githubusercontent.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/main/Hardware/Figures/project_overview.png" width="1600" height="900" alt="Project overview showing the droplet workflow, optical and control architecture, spectra and representative detection results." fetchpriority="high">
         </a>
-        <figcaption>System overview, from droplet generation and optical detection to programmable actuation.</figcaption>
+        <figcaption>Figure 1. Integrated droplet workflow, optical architecture and representative project measurements.</figcaption>
       </figure>
     </section>
     <section class="section alt">
@@ -141,6 +167,9 @@
         <p class="section-number">01 / THE PLATFORM</p>
         <h2>What we built</h2>
         <p class="section-intro">A modular microfluidic platform that brings observation, fluorescence detection, gate control and syringe-pump operation into a shared experimental workspace.</p>
+        <ol class="signal-chain" aria-label="Functional workflow">
+          <li>Droplet generation</li><li>Fluorescence detection</li><li>Photon counting</li><li>Threshold decision</li><li>PYNQ gating</li><li>DEP sorting</li>
+        </ol>
         <div class="capabilities">
           <div><h3>Imaging</h3><p>Camera observation, recording and snapshots for chip alignment and droplet monitoring.</p></div>
           <div><h3>Photon counting</h3><p>CH297 acquisition with live counts and adjustable detection thresholds.</p></div>
@@ -152,7 +181,7 @@
     <section class="section" id="hardware">
       <div class="wrap">
         <p class="section-number">02 / HARDWARE</p>
-        <div class="section-head"><h2>The optical assembly</h2><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/tree/main/Hardware">Hardware files</a></div>
+        <div class="section-head"><h2>Optical assembly</h2><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/tree/main/Hardware">Hardware files</a></div>
         <div class="photo-grid">
           <figure>
             <a href="https://raw.githubusercontent.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/main/Hardware/Photos/optical_bench_side.png" aria-label="Open the optical assembly side view">
@@ -186,7 +215,7 @@
     <section class="section" id="demonstration">
       <div class="wrap">
         <p class="section-number">04 / DEMONSTRATION</p>
-        <div class="section-head"><h2>Droplets in view</h2><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/tree/main/Examples">Selected examples</a></div>
+        <div class="section-head"><h2>Experimental demonstration</h2><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/tree/main/Examples">Selected examples</a></div>
         <div class="demo-grid">
           <figure>
             <video controls preload="none" playsinline poster="https://raw.githubusercontent.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/main/Manual/images/microfluidic_preview.png" aria-label="Droplet microscopy demonstration">
@@ -230,8 +259,8 @@
   </main>
   <footer>
     <div class="wrap footer-inner">
-      <span>NEFU-China &middot; Open Microfluidic Platform</span>
-      <div class="footer-links"><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform">Repository</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/tag/v0.8.3">Release 0.8.3</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/blob/main/LICENSE">License</a></div>
+      <span>NEFU-China iDEC Team<br>Northeast Forestry University</span>
+      <div class="footer-links"><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform">Repository</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/tag/v0.8.4">Release 0.8.4</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/blob/main/LICENSE">License</a></div>
     </div>
   </footer>
 </body>

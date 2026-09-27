@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "NEFU-China-Open-Microfluidic-Platform",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "status": "source-distribution",
   "language": "en",
   "files": [
@@ -83,6 +83,8 @@
     "Software/PYNQ/tests/test_perf_server.py",
     "VALIDATION.md",
     "docs/index.html",
+    "docs/assets/nefu-china-logo.png",
+    "docs/assets/nefu-emblem.png",
     "scripts/build_manual.py",
     "scripts/build_release.py",
     "scripts/build_windows_release.py",

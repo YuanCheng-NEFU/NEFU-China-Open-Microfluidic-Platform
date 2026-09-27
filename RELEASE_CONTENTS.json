@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "NEFU-China-Open-Microfluidic-Platform",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "status": "source-distribution",
   "review_required": false,
   "pending_review": [],
@@ -158,8 +158,8 @@
     },
     {
       "path": "LICENSE-DOCS",
-      "size": 886,
-      "sha256": "f6f2994a20b5bf89c3a4b7d31d08d19e0b1f97efc9e669cd0173b00549eb3400"
+      "size": 1088,
+      "sha256": "3873181a3961e876b40292aa0175460c19998635cf1351945683a074554e1a2a"
     },
     {
       "path": "Manual/Build_Guide.docx",
@@ -198,18 +198,18 @@
     },
     {
       "path": "README.md",
-      "size": 6055,
-      "sha256": "641a019483827ba0e13f373012f7ce4aca92093aeed54af2e01a01a01583ac25"
+      "size": 6148,
+      "sha256": "c09f99b0574801ea7b54589642cb7feda44ccab2c02e156c0f1303869068eff3"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "size": 1793,
-      "sha256": "4429b703e9f2f2cb2a86648f4c1bc9ec2a89c489801c963a3a785da9a022a369"
+      "size": 1977,
+      "sha256": "ecb313d4c9b562df130cd5dc2a35a2cafe8fcc81b22ae346eb7085598041ddb6"
     },
     {
       "path": "RELEASING.md",
       "size": 2285,
-      "sha256": "491b8310e5abdf5e4df0ca59a0531d63ac3382a6866b568bface2f3cc95a2f2c"
+      "sha256": "bb9270b20b46a26fef1e57b84dacf6e3f789bd50aba6e369f4a34d3732f8d9ac"
     },
     {
       "path": "Software/PC_Control/README.md",
@@ -392,14 +392,24 @@
       "sha256": "1dbd19c7493240eceaee4a155543f4f0a5466cb84a6a50a345b65f0ea83adc2b"
     },
     {
+      "path": "docs/assets/nefu-china-logo.png",
+      "size": 1404902,
+      "sha256": "9d09ced8ab77e4831caae71a2dea27d6b2ab97adb15724b19c2aac8063bdfac4"
+    },
+    {
+      "path": "docs/assets/nefu-emblem.png",
+      "size": 336591,
+      "sha256": "35423d1f3cd7824acad8c7fa21f62de2d0a1183c8acc0b04c85d8a0c5f2df6b5"
+    },
+    {
       "path": "docs/index.html",
-      "size": 18412,
-      "sha256": "466bc61c22dec95fa779de4771610b041aced51c949bbf83ed48faf66cd903f2"
+      "size": 20781,
+      "sha256": "4b51f9ffc549814b15e3fea543ff0d4ea49a1567d7e59a124fbd33c44ce965d6"
     },
     {
       "path": "release_manifest.json",
-      "size": 4996,
-      "sha256": "b9791cd42c8f737fc99de395c577b3dc11f174c27a5470fbb44b21ef0225afdf"
+      "size": 5070,
+      "sha256": "2ce33c77d768bd124f7d38318e23676916d2b4b755ae05797861914f265f3f2d"
     },
     {
       "path": "scripts/build_manual.py",

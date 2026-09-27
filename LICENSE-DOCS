@@ -19,5 +19,9 @@ Vendor SDKs, drivers, datasheets, product marks and third-party materials
 retain their original ownership and terms. This distribution does not
 bundle vendor SDKs or assign a project license to third-party materials.
 
+The NEFU-China team logo and Northeast Forestry University emblem in
+docs/assets/ are displayed as identity marks and retain their respective
+ownership. They are not relicensed under MIT or CC BY 4.0.
+
 Software in Software/, scripts/, tests/, and diagram-generation code in
 Hardware/Figures/ is covered by LICENSE.
