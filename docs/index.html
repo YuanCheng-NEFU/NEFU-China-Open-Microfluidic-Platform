@@ -78,6 +78,12 @@
     .steps p { color:var(--muted); font-size:15px; margin:8px 0 0; }
     code { overflow-wrap:anywhere; font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace; }
     .requirements { font-size:14px; color:var(--muted); border-top:1px solid var(--line); padding-top:18px; margin-top:24px; }
+    .acknowledgement-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:36px; margin-top:32px; }
+    .acknowledgement-grid > div { display:flex; flex-direction:column; }
+    .acknowledgement-grid p { font-size:15px; color:var(--muted); margin:16px 0 0; }
+    .acknowledgement-grid strong { color:var(--ink); font-weight:600; }
+    .support-marks { display:flex; flex-wrap:wrap; align-items:center; gap:16px; margin-top:auto; padding-top:20px; }
+    .support-marks img { width:auto; max-width:120px; height:48px; object-fit:contain; }
     footer { padding:28px 0; border-top:1px solid var(--line); font-size:13px; color:var(--muted); }
     .footer-inner { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
     .footer-links { display:flex; gap:24px; flex-wrap:wrap; }
@@ -90,6 +96,7 @@
       .capabilities { grid-template-columns:1fr 1fr; }
       .build-grid { gap:36px; }
       .demo-grid { grid-template-columns:1fr; }
+      .acknowledgement-grid { grid-template-columns:1fr; gap:32px; }
     }
     @media(max-width:580px) {
       html { scroll-padding-top:120px; }
@@ -256,11 +263,49 @@
         </ol>
       </div>
     </section>
+    <section class="section" id="acknowledgements">
+      <div class="wrap">
+        <p class="section-number">06 / ACKNOWLEDGEMENTS</p>
+        <h2>Acknowledgements</h2>
+        <div class="acknowledgement-grid">
+          <div>
+            <h3>Technical support</h3>
+            <p>We thank <strong>Haining High-Tech Research Institute</strong>, <strong>Tianjin University</strong>, <strong>Dalian University of Technology</strong> and <strong>TMAXTREE</strong> for technical support.</p>
+            <p>Special thanks to <strong>Zhixiong Song</strong>, engineer at Haining High-Tech Research Institute.</p>
+            <div class="support-marks">
+              <img src="assets/acknowledgements/haining-high-tech.png" alt="Haining High-Tech Research Institute" loading="lazy">
+              <img src="assets/acknowledgements/tianjin-university.png" alt="Tianjin University" loading="lazy">
+              <img src="assets/acknowledgements/dalian-university.png" alt="Dalian University of Technology" loading="lazy">
+              <img src="assets/acknowledgements/tmaxtree.png" alt="TMAXTREE" loading="lazy">
+            </div>
+          </div>
+          <div>
+            <h3>Equipment and materials</h3>
+            <p>We acknowledge equipment and materials sourced from <strong>Xi'an Jiaotong University</strong>, <strong>FluidicLab</strong> and <strong>Oeabt</strong>.</p>
+            <p>Special thanks to <strong>Kaitong Dang</strong>, a graduate student at Xi'an Jiaotong University.</p>
+            <div class="support-marks">
+              <img src="assets/acknowledgements/xian-jiaotong.png" alt="Xi'an Jiaotong University" loading="lazy">
+              <img src="assets/acknowledgements/fluidiclab.png" alt="FluidicLab" loading="lazy">
+              <img src="assets/acknowledgements/oeabt.png" alt="Oeabt" loading="lazy">
+            </div>
+          </div>
+          <div>
+            <h3>Academic exchange</h3>
+            <p>We thank <strong>Haining High-Tech Research Institute</strong>, <strong>Taiyuan University of Technology</strong> and <strong>Sichuan University</strong> for academic exchange and collaboration.</p>
+            <div class="support-marks">
+              <img src="assets/acknowledgements/haining-high-tech.png" alt="Haining High-Tech Research Institute" loading="lazy">
+              <img src="assets/acknowledgements/taiyuan-university.png" alt="Taiyuan University of Technology" loading="lazy">
+              <img src="assets/acknowledgements/sichuan-university.png" alt="Sichuan University" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="wrap footer-inner">
       <span>NEFU-China iDEC Team<br>Northeast Forestry University</span>
-      <div class="footer-links"><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform">Repository</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/tag/v0.8.4">Release 0.8.4</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/blob/main/LICENSE">License</a></div>
+      <div class="footer-links"><a href="#acknowledgements">Acknowledgements</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform">Repository</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/releases/tag/v0.8.4">Release 0.8.4</a><a href="https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform/blob/main/LICENSE">License</a></div>
     </div>
   </footer>
 </body>

@@ -158,8 +158,8 @@
     },
     {
       "path": "LICENSE-DOCS",
-      "size": 1088,
-      "sha256": "3873181a3961e876b40292aa0175460c19998635cf1351945683a074554e1a2a"
+      "size": 1103,
+      "sha256": "5ebcdd4633f722e4e267681a578bfb98bc2c681696d638d3f9669102382630c4"
     },
     {
       "path": "Manual/Build_Guide.docx",
@@ -198,8 +198,8 @@
     },
     {
       "path": "README.md",
-      "size": 6148,
-      "sha256": "c09f99b0574801ea7b54589642cb7feda44ccab2c02e156c0f1303869068eff3"
+      "size": 7981,
+      "sha256": "5258de868a82962b2306ac671df3e0022b7e5521f3921ab7b0049af8d1139e52"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -392,6 +392,51 @@
       "sha256": "1dbd19c7493240eceaee4a155543f4f0a5466cb84a6a50a345b65f0ea83adc2b"
     },
     {
+      "path": "docs/assets/acknowledgements/dalian-university.png",
+      "size": 76637,
+      "sha256": "df1a9c2d9600f2e233ee5c3daa0c5c74b00b7bad34b2415a68f1833d65653b34"
+    },
+    {
+      "path": "docs/assets/acknowledgements/fluidiclab.png",
+      "size": 34952,
+      "sha256": "185490f4084f2b04173f6fa26a04c381aa5484cd9ec46d3b07b87e29b88b1d52"
+    },
+    {
+      "path": "docs/assets/acknowledgements/haining-high-tech.png",
+      "size": 881690,
+      "sha256": "ece79b064743d861e1bd67ffeee9a28f7a18503f151b5efcb6818632c16b7ab3"
+    },
+    {
+      "path": "docs/assets/acknowledgements/oeabt.png",
+      "size": 14844,
+      "sha256": "3f05c2358936754b4522523112c47bc4892d7f951e241e1109b2845b4f6bd075"
+    },
+    {
+      "path": "docs/assets/acknowledgements/sichuan-university.png",
+      "size": 26840,
+      "sha256": "13bc7c8f02098d425caf65f60a02c06d7fec51348ae20be77915a8322538a38e"
+    },
+    {
+      "path": "docs/assets/acknowledgements/taiyuan-university.png",
+      "size": 325860,
+      "sha256": "a5283e547e85609315cde9da35f0d847f4a2570851464e49494077b92b1a87b0"
+    },
+    {
+      "path": "docs/assets/acknowledgements/tianjin-university.png",
+      "size": 114585,
+      "sha256": "3bdf0774833e07b43ab443a46407ae3dfe4d42619855dfd0509917257e84150a"
+    },
+    {
+      "path": "docs/assets/acknowledgements/tmaxtree.png",
+      "size": 205666,
+      "sha256": "04d0408cf23bf7970223c47661111f122e398195cc66a88e8460a3a3f6a0a780"
+    },
+    {
+      "path": "docs/assets/acknowledgements/xian-jiaotong.png",
+      "size": 488256,
+      "sha256": "419abc36a5f044c139158f8e78bfb0665c8cda43decaa3c464e9b1727595a18b"
+    },
+    {
       "path": "docs/assets/nefu-china-logo.png",
       "size": 1404902,
       "sha256": "9d09ced8ab77e4831caae71a2dea27d6b2ab97adb15724b19c2aac8063bdfac4"
@@ -403,13 +448,13 @@
     },
     {
       "path": "docs/index.html",
-      "size": 20781,
-      "sha256": "4b51f9ffc549814b15e3fea543ff0d4ea49a1567d7e59a124fbd33c44ce965d6"
+      "size": 24082,
+      "sha256": "50add67ec60cacde2fd5fe6496ca35ce31f0d1632c4d0dbb7126d029feaefb56"
     },
     {
       "path": "release_manifest.json",
-      "size": 5070,
-      "sha256": "2ce33c77d768bd124f7d38318e23676916d2b4b755ae05797861914f265f3f2d"
+      "size": 5563,
+      "sha256": "592aba06367fad8595506b33f4577be9ef38776f5130f6d4257918acd3ebb208"
     },
     {
       "path": "scripts/build_manual.py",

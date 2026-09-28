@@ -87,6 +87,39 @@ To compile from source, run `00_BUILD_TOTAL_CONTROL_V7_0_PERF.cmd --no-pause` or
 
 [Release notes](RELEASE_NOTES.md) | [Packaging](RELEASING.md) | [Validation](VALIDATION.md)
 
+## Acknowledgements
+
+### Technical Support
+
+We thank **Haining High-Tech Research Institute**, **Tianjin University**, **Dalian University of Technology** and **TMAXTREE** for technical support. Special thanks to **Zhixiong Song**, engineer at Haining High-Tech Research Institute.
+
+<p>
+<img src="docs/assets/acknowledgements/haining-high-tech.png" alt="Haining High-Tech Research Institute" height="48">&nbsp;&nbsp;
+<img src="docs/assets/acknowledgements/tianjin-university.png" alt="Tianjin University" height="48">&nbsp;&nbsp;
+<img src="docs/assets/acknowledgements/dalian-university.png" alt="Dalian University of Technology" height="48">&nbsp;&nbsp;
+<img src="docs/assets/acknowledgements/tmaxtree.png" alt="TMAXTREE" height="48">
+</p>
+
+### Equipment and Materials
+
+We acknowledge equipment and materials sourced from **Xi'an Jiaotong University**, **FluidicLab** and **Oeabt**. Special thanks to **Kaitong Dang**, a graduate student at Xi'an Jiaotong University.
+
+<p>
+<img src="docs/assets/acknowledgements/xian-jiaotong.png" alt="Xi'an Jiaotong University" height="48">&nbsp;&nbsp;
+<img src="docs/assets/acknowledgements/fluidiclab.png" alt="FluidicLab" height="48">&nbsp;&nbsp;
+<img src="docs/assets/acknowledgements/oeabt.png" alt="Oeabt" height="48">
+</p>
+
+### Academic Exchange and Collaboration
+
+We thank **Haining High-Tech Research Institute**, **Taiyuan University of Technology** and **Sichuan University** for academic exchange and collaboration.
+
+<p>
+<img src="docs/assets/acknowledgements/haining-high-tech.png" alt="Haining High-Tech Research Institute" height="48">&nbsp;&nbsp;
+<img src="docs/assets/acknowledgements/taiyuan-university.png" alt="Taiyuan University of Technology" height="48">&nbsp;&nbsp;
+<img src="docs/assets/acknowledgements/sichuan-university.png" alt="Sichuan University" height="48">
+</p>
+
 ## Citation, License and Team
 
 When using this platform, cite **NEFU-China iDEC Experimental Group, NEFU-China Open Microfluidic Platform**, the [repository](https://github.com/YuanCheng-NEFU/NEFU-China-Open-Microfluidic-Platform) and the version used.
